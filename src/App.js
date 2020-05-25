@@ -3,9 +3,7 @@ import "./App.css";
 // import Navbar from "./Components/Navbar";
 // import Section from "./Components/Section";
 // import dummyText from "./DummyText";
-// import RevealTopCat from './Components/RevealTopCat';
 import AnimatedNavbar from "./AnimatedNavbar"
-import DemoControls from "./DemoControls"
 import styled from "styled-components"
 
 const AppContainer = styled.div`
@@ -31,10 +29,6 @@ class App extends Component {
     return (
       <AppContainer>
         <AnimatedNavbar duration={this.state.duration} />
-        <DemoControls
-          duration={this.state.duration}
-          onChange={this.onChange}
-        />
       </AppContainer>
     );
   }

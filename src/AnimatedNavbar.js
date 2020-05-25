@@ -6,6 +6,8 @@ import DropdownContainer from "./DropdownContainer"
 import CompanyDropdown from "./DropdownContents/CompanyDropdown"
 import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
 import ProductsDropdown from "./DropdownContents/ProductsDropdown"
+import RevealTopCat from './Components/RevealTopCat';
+import './AnimatedNavbar.css';
 
 const navbarConfig = [
   { title: "Products", dropdown: ProductsDropdown },
@@ -76,29 +78,34 @@ export default class AnimatedNavbar extends Component {
         flipKey={currentIndex}
         spring={duration === 300 ? "noWobble" : { stiffness: 10, damping: 10 }}
       >
-        <Navbar onMouseLeave={this.onMouseLeave}>
-          {navbarConfig.map((n, index) => {
-            return (
-              <NavbarItem
-                key={n.title}
-                title={n.title}
-                index={index}
-                onMouseEnter={this.onMouseEnter}
-              >
-                {currentIndex === index && (
-                  <DropdownContainer
-                    direction={direction}
-                    animatingOut={this.state.animatingOut}
-                    duration={duration}
+        <div id="behind">
+          <div id="front">
+            <Navbar onMouseLeave={this.onMouseLeave}>
+              {navbarConfig.map((n, index) => {
+                return (
+                  <NavbarItem
+                    key={n.title}
+                    title={n.title}
+                    index={index}
+                    onMouseEnter={this.onMouseEnter}
                   >
-                    <CurrentDropdown />
-                    {PrevDropdown && <PrevDropdown />}
-                  </DropdownContainer>
-                )}
-              </NavbarItem>
-            )
-          })}
-        </Navbar>
+                    {currentIndex === index && (
+                      <DropdownContainer
+                        direction={direction}
+                        animatingOut={this.state.animatingOut}
+                        duration={duration}
+                      >
+                        <CurrentDropdown />
+                        {PrevDropdown && <PrevDropdown />}
+                      </DropdownContainer>
+                    )}
+                  </NavbarItem>
+                )
+              })}
+            </Navbar>
+          </div>
+        <RevealTopCat />
+        </div>
       </Flipper>
     )
   }

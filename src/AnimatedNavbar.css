@@ -1,0 +1,9 @@
+#front {
+    position: fixed;
+    z-index: 2;
+}
+
+#behind {
+    position: fixed;
+    z-index: 1;
+}
