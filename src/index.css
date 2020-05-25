@@ -1,3 +1,9 @@
+@import "~normalize.css";
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +17,41 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --white: #fff;
+  --grey: #f1f4f8b0;
+  --dark-grey: #6b7c93;
+  --green: #24b47e;
+  --teal: #4F96CE;
+  --blue: #6772e5;
+  --dark-blue: #4F3EF5;
+  --spacer: 28px;
+}
+
+body {
+  font-family: karla, -apple-system, system-ui, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--dark-grey);
+}
+
+a {
+  text-decoration: none;
+  color: var(--blue);
+}
+
+a:hover,
+a:focus {
+  color: var(--dark-blue);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
