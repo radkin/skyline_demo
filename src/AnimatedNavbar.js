@@ -8,6 +8,8 @@ import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
 import ProductsDropdown from "./DropdownContents/ProductsDropdown"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
+import Progress from './Components/Progress';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const navbarConfig = [
   { title: "Products", dropdown: ProductsDropdown },
@@ -17,7 +19,8 @@ const navbarConfig = [
 
 export default class AnimatedNavbar extends Component {
   state = {
-    activeIndices: []
+    activeIndices: [],
+    scrollPosition: 0
   }
 
   resetDropdownState = i => {
@@ -51,6 +54,45 @@ export default class AnimatedNavbar extends Component {
       this.resetDropdownState,
       this.props.duration
     )
+  }
+
+  // react-scroll
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
+  listenToScrollEvent = () => {
+    document.addEventListener("scroll", () => {
+      requestAnimationFrame(() => {
+        // Calculates the scroll distance
+        this.calculateScrollDistance();
+      });
+    });
+  };
+
+  calculateScrollDistance  =  ()  =>  {
+    const  scrollTop  =  window.pageYOffset;
+    const  winHeight  =  window.innerHeight;
+    const  docHeight  =  this.getDocHeight();
+
+    const  totalDocScrollLength = docHeight  -  winHeight;
+    const  scrollPostion  =  Math.floor(scrollTop  /  totalDocScrollLength  *  100);
+
+    this.setState({
+      scrollPostion,
+    });
+  }
+
+  getDocHeight  =  ()  =>  {
+    return Math.max(
+      document.body.scrollHeight,  document.documentElement.scrollHeight,
+      document.body.offsetHeight,  document.documentElement.offsetHeight,
+      document.body.clientHeight,  document.documentElement.clientHeight
+    );
+  }
+
+  componentDidMount()  {
+    this.listenToScrollEvent();
   }
 
   render() {
@@ -102,9 +144,72 @@ export default class AnimatedNavbar extends Component {
                   </NavbarItem>
                 )
               })}
+              <ul className="nav-items">
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    to="section1"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Section 1
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    to="section2"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Section 2
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    to="section3"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Section 3
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    to="section4"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Section 4
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                    activeClass="active"
+                    to="section5"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
+                    Section 5
+                  </Link>
+                </li>
+              </ul>
             </Navbar>
           </div>
         <RevealTopCat />
+        <Progress  scroll={ this.state.scrollPostion  +  '%' }  />
         </div>
       </Flipper>
     )
