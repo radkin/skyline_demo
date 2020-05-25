@@ -8,8 +8,29 @@ import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
 import ProductsDropdown from "./DropdownContents/ProductsDropdown"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
-import Progress from './Components/Progress';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import styled from "styled-components"
+
+const NavbarItemTitle = styled.button`
+  background: transparent;
+  border: 0;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 18px;
+  padding: 2rem 1.5rem 1.2rem 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: opacity 250ms;
+  cursor: pointer;
+  /* position above the dropdown, otherwise the dropdown will cover up the bottom sliver of the buttons */
+  position: relative;
+  z-index: 2;
+  &:hover, &:focus {
+    opacity: 0.7;
+    outline:none;
+  }
+`
 
 const navbarConfig = [
   { title: "Products", dropdown: ProductsDropdown },
@@ -54,45 +75,6 @@ export default class AnimatedNavbar extends Component {
       this.resetDropdownState,
       this.props.duration
     )
-  }
-
-  // react-scroll
-  scrollToTop = () => {
-    scroll.scrollToTop();
-  };
-
-  listenToScrollEvent = () => {
-    document.addEventListener("scroll", () => {
-      requestAnimationFrame(() => {
-        // Calculates the scroll distance
-        this.calculateScrollDistance();
-      });
-    });
-  };
-
-  calculateScrollDistance  =  ()  =>  {
-    const  scrollTop  =  window.pageYOffset;
-    const  winHeight  =  window.innerHeight;
-    const  docHeight  =  this.getDocHeight();
-
-    const  totalDocScrollLength = docHeight  -  winHeight;
-    const  scrollPostion  =  Math.floor(scrollTop  /  totalDocScrollLength  *  100);
-
-    this.setState({
-      scrollPostion,
-    });
-  }
-
-  getDocHeight  =  ()  =>  {
-    return Math.max(
-      document.body.scrollHeight,  document.documentElement.scrollHeight,
-      document.body.offsetHeight,  document.documentElement.offsetHeight,
-      document.body.clientHeight,  document.documentElement.clientHeight
-    );
-  }
-
-  componentDidMount()  {
-    this.listenToScrollEvent();
   }
 
   render() {
@@ -144,7 +126,8 @@ export default class AnimatedNavbar extends Component {
                   </NavbarItem>
                 )
               })}
-              <ul className="nav-items">
+              <NavbarItemTitle>
+              <ul>
                 <li className="nav-item">
                   <Link
                     activeClass="active"
@@ -206,10 +189,10 @@ export default class AnimatedNavbar extends Component {
                   </Link>
                 </li>
               </ul>
+              </NavbarItemTitle>
             </Navbar>
           </div>
         <RevealTopCat />
-        <Progress  scroll={ this.state.scrollPostion  +  '%' }  />
         </div>
       </Flipper>
     )
