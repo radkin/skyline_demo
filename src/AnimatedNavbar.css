@@ -1,6 +1,7 @@
 #front {
     position: fixed;
     z-index: 2;
+    padding-left: 300px;
 }
 
 #behind {
