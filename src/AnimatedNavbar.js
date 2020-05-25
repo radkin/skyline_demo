@@ -6,36 +6,19 @@ import DropdownContainer from "./DropdownContainer"
 import CompanyDropdown from "./DropdownContents/CompanyDropdown"
 import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
 import ProductsDropdown from "./DropdownContents/ProductsDropdown"
+import Section from "./Components/Section"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
-import { Link } from "react-scroll";
-import styled from "styled-components"
-
-const NavbarItemTitle = styled.button`
-  background: transparent;
-  border: 0;
-  font-weight: bold;
-  font-family: inherit;
-  font-size: 18px;
-  padding: 2rem 1.5rem 1.2rem 1.5rem;
-  color: white;
-  display: flex;
-  justify-content: center;
-  transition: opacity 250ms;
-  cursor: pointer;
-  /* position above the dropdown, otherwise the dropdown will cover up the bottom sliver of the buttons */
-  position: relative;
-  z-index: 2;
-  &:hover, &:focus {
-    opacity: 0.7;
-    outline:none;
-  }
-`
+import { Link, animateScroll as scroll } from "react-scroll";
+import logo from "./logo.svg";
 
 const navbarConfig = [
   { title: "Products", dropdown: ProductsDropdown },
   { title: "Developers", dropdown: DevelopersDropdown },
-  { title: "Company", dropdown: CompanyDropdown }
+  { title: "Company", dropdown: CompanyDropdown },
+  { title: "Section1", dropdown: Section },
+  { title: "Section2", dropdown: Section },
+  { title: "Section3", dropdown: Section }
 ]
 
 export default class AnimatedNavbar extends Component {
@@ -76,6 +59,10 @@ export default class AnimatedNavbar extends Component {
       this.props.duration
     )
   }
+
+  scrollToTop = () => {
+      scroll.scrollToTop();
+    };
 
   render() {
     const { duration } = this.props
@@ -126,70 +113,6 @@ export default class AnimatedNavbar extends Component {
                   </NavbarItem>
                 )
               })}
-              <NavbarItemTitle>
-              <ul>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    to="section1"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Section 1
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    to="section2"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Section 2
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    to="section3"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Section 3
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    to="section4"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Section 4
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link
-                    activeClass="active"
-                    to="section5"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                  >
-                    Section 5
-                  </Link>
-                </li>
-              </ul>
-              </NavbarItemTitle>
             </Navbar>
           </div>
         <RevealTopCat />
@@ -198,3 +121,16 @@ export default class AnimatedNavbar extends Component {
     )
   }
 }
+
+
+// <li className="nav-item">
+//   <Link
+//     activeClass="active"
+//     to="section5"
+//     spy={true}
+//     smooth={true}
+//     offset={-70}
+//     duration={500}
+//   >
+//     Section 5
+//   </Link>
