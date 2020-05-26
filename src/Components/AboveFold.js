@@ -13,17 +13,27 @@ class AboveFold extends React.Component {
     return (
       <div className="foldParent">
         <div className="picContainerLeft">
-          <Fade left>
+          <Fade left delay={400}>
             <img src={onPerch} alt="on perch" className="pic"/>
           </Fade>
         </div>
-        <Fade bottom>
+        <Fade bottom delay={800}>
+          <div className="cats">
+            <h1>Cats</h1>
+          </div>
+        </Fade>
+        <Fade bottom delay={1200}>
           <div className="fur">
-            <h1>Cats, more fur than ever</h1>
+            <h2>more fur than ever</h2>
+          </div>
+        </Fade>
+        <Fade bottom delay={1500}>
+          <div className="silly">
+            <h2>Certainly way more silly than you or I.</h2>
           </div>
         </Fade>
         <div className="picContainerRight">
-          <Fade right>
+          <Fade right delay={200}>
             <img src={whatThat} alt="what was that" className="pic"/>
           </Fade>
         </div>
