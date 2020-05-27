@@ -8,13 +8,13 @@ import {
   Icon
 } from "./Components"
 
-const CompanyDropdownEl = styled.div`
+const SidDropdownEl = styled.div`
   width: 18.5rem;
 `
 
-const CompanyDropdown = () => {
+const SidDropdown = () => {
   return (
-    <CompanyDropdownEl>
+    <SidDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <ul>
           <HeadingLink>
@@ -57,8 +57,8 @@ const CompanyDropdown = () => {
           </LinkList>
         </div>
       </DropdownSection>
-    </CompanyDropdownEl>
+    </SidDropdownEl>
   )
 }
 
-export default CompanyDropdown
+export default SidDropdown

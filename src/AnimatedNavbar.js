@@ -3,17 +3,17 @@ import Navbar from "./Navbar"
 import NavbarItem from "./Navbar/NavbarItem"
 import { Flipper } from "react-flip-toolkit"
 import DropdownContainer from "./DropdownContainer"
-import CompanyDropdown from "./DropdownContents/CompanyDropdown"
-import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
-import ProductsDropdown from "./DropdownContents/ProductsDropdown"
+import SidDropdown from "./DropdownContents/SidDropdown"
+import GusDropdown from "./DropdownContents/GusDropdown"
+import FirestarDropdown from "./DropdownContents/FirestarDropdown"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
 import AboveFold from './Components/AboveFold';
 
 const navbarConfig = [
-  { title: "Products", dropdown: ProductsDropdown },
-  { title: "Developers", dropdown: DevelopersDropdown },
-  { title: "Company", dropdown: CompanyDropdown }
+  { title: "Firestar", dropdown: FirestarDropdown },
+  { title: "Gus", dropdown: GusDropdown },
+  { title: "Sid", dropdown: SidDropdown }
 ]
 
 export default class AnimatedNavbar extends Component {

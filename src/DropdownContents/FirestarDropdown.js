@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Icon, DropdownSection, Heading } from "./Components"
 
-const ProductsDropdownEl = styled.div`
+const FirestarDropdownEl = styled.div`
   width: 30rem;
 `
 
@@ -15,7 +15,7 @@ const Logo = styled.div`
   background-color: ${({ color }) => `var(--${color})`};
 `
 
-const SubProductsList = styled.ul`
+const SubFirestarList = styled.ul`
   li {
     display: flex;
     margin-bottom: 1rem;
@@ -30,7 +30,7 @@ const SubProductsList = styled.ul`
   }
 `
 
-const ProductsSection = styled.ul`
+const FirestarSection = styled.ul`
   li {
     display: flex;
   }
@@ -49,11 +49,11 @@ h3 {
 }
 `
 
-const ProductsDropdown = () => {
+const FirestarDropdown = () => {
   return (
-    <ProductsDropdownEl>
+    <FirestarDropdownEl>
       <DropdownSection data-first-dropdown-section>
-        <ProductsSection>
+        <FirestarSection>
           <li>
             <div>
               <Logo color="blue" />
@@ -83,10 +83,10 @@ const ProductsDropdown = () => {
               </p>
             </div>
           </li>
-        </ProductsSection>
+        </FirestarSection>
       </DropdownSection>
       <DropdownSection>
-        <SubProductsList>
+        <SubFirestarList>
           <li>
             <Heading noMarginBottom>Sigma</Heading>
             <div>Your business data at your fingertips.</div>
@@ -99,7 +99,7 @@ const ProductsDropdown = () => {
             <Heading noMarginBottom>Radar</Heading>
             <div>Fight fraud with machine learning.</div>
           </li>
-        </SubProductsList>
+        </SubFirestarList>
         <WorksWithStripe>
           <Heading noMarginBottom>
             <a href="/">
@@ -108,8 +108,8 @@ const ProductsDropdown = () => {
           </Heading>
         </WorksWithStripe>
       </DropdownSection>
-    </ProductsDropdownEl>
+    </FirestarDropdownEl>
   )
 }
 
-export default ProductsDropdown
+export default FirestarDropdown
