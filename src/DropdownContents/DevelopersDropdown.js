@@ -8,7 +8,7 @@ import {
   LinkList
 } from "./Components"
 
-const GusDropdownEl = styled.div`
+const DevelopersDropdownEl = styled.div`
   width: 25rem;
 `
 
@@ -19,9 +19,9 @@ const Flex = styled.div`
   }
 `
 
-const GusDropdown = () => {
+const DevelopersDropdown = () => {
   return (
-    <GusDropdownEl>
+    <DevelopersDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <div>
           <Heading>Documentation</Heading>
@@ -77,8 +77,8 @@ const GusDropdown = () => {
           </HeadingLink>
         </ul>
       </DropdownSection>
-    </GusDropdownEl>
+    </DevelopersDropdownEl>
   )
 }
 
-export default GusDropdown
+export default DevelopersDropdown

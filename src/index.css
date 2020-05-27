@@ -19,14 +19,13 @@ code {
     monospace;
 }
 
-/* blus is not actually blue, it's orange FF8533 */
 :root {
   --white: #fff;
   --grey: #f1f4f8b0;
   --dark-grey: #6b7c93;
   --green: #24b47e;
   --teal: #4F96CE;
-  --blue: #FF8533;
+  --blue: #6772e5;
   --dark-blue: #4F3EF5;
   --spacer: 28px;
 }
