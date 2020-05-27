@@ -14,7 +14,7 @@ const AppContainer = styled.div`
   }`
 
 const AboveFoldBackground = styled.div`
-  background: black;
+  background: #DCDCDC;
   width: 100%;'
 `;
 

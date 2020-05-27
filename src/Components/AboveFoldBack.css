@@ -10,3 +10,12 @@
 .kitty {
   padding-left: 10px;
 }
+
+.pic {
+  border-radius: 20px;
+}
+
+p {
+  color: #383838;
+  font-family: sans-serif;
+}
