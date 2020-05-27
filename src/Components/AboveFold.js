@@ -17,21 +17,23 @@ class AboveFold extends React.Component {
             <img src={onPerch} alt="on perch" className="pic"/>
           </Fade>
         </div>
-        <Fade bottom delay={800}>
-          <div className="cats">
-            <h1>Cats</h1>
-          </div>
-        </Fade>
-        <Fade bottom delay={1200}>
-          <div className="fur">
-            <h2>more fur than ever</h2>
-          </div>
-        </Fade>
-        <Fade bottom delay={1500}>
-          <div className="silly">
-            <h2>Certainly way more silly than you or I.</h2>
-          </div>
-        </Fade>
+
+          <Fade bottom delay={800}>
+            <div className="cats">
+              <h1>Cats</h1>
+              <Fade bottom delay={1200}>
+                <div className="fur">
+                  <h2>more fur than ever</h2>
+                  <Fade bottom delay={2000}>
+                    <div className="silly">
+                      <h2>Certainly way more silly than you or I.</h2>
+                    </div>
+                  </Fade>
+                </div>
+              </Fade>
+            </div>
+          </Fade>
+
         <div className="picContainerRight">
           <Fade right delay={200}>
             <img src={whatThat} alt="what was that" className="pic"/>
