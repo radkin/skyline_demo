@@ -27,11 +27,12 @@ class AboveFold extends React.Component {
                 <p>the middle of the night!</p>
               </Fade>
             </div>
-            <div className="kittyRowRight">
+            <div className="kittyRowLeftt">
               <Fade left delay={200}>
                 <img src={gusPerch} alt="gus perch" className="pic"/>
               </Fade>
             </div>
+
           </div>
         </div>
 
