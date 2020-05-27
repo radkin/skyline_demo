@@ -25,7 +25,7 @@ class AboveFold extends React.Component {
               <Fade bottom delay={1200}>
                 <div className="fur">
                   <h2>more fur than ever</h2>
-                  <Fade bottom delay={2000}>
+                  <Fade bottom delay={1700}>
                     <div className="silly">
                       <h2>Certainly way more silly than you or I.</h2>
                     </div>
