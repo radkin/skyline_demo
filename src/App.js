@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
 import AnimatedNavbar from "./AnimatedNavbar"
 import styled from "styled-components"
+import AboveFoldBack from './Components/AboveFoldBack';
 
 const AppContainer = styled.div`
   background: white;
@@ -13,6 +13,10 @@ const AppContainer = styled.div`
     flex: 1 0 70vh;
   }`
 
+const AboveFoldBackground = styled.div`
+  background: black;
+  width: 100%;'
+`;
 
 class App extends Component {
 
@@ -24,9 +28,14 @@ class App extends Component {
 
   render() {
     return (
-      <AppContainer>
-        <AnimatedNavbar duration={this.state.duration} />
-      </AppContainer>
+      <div>
+        <AppContainer>
+          <AnimatedNavbar duration={this.state.duration} />
+        </AppContainer>
+        <AboveFoldBackground>
+          <AboveFoldBack />
+        </AboveFoldBackground>
+      </div>
     );
   }
 }

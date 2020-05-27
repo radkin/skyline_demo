@@ -1,0 +1,13 @@
+.kittyRowLeft {
+  width: 40%;
+  float: left;
+}
+
+.kittyRowRight {
+  width: 40%;
+  float: left;
+}
+
+.kittyRow {
+  padding-top: 405px;
+}
