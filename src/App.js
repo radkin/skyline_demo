@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./App.css";
 import AnimatedNavbar from "./AnimatedNavbar"
 import styled from "styled-components"
-import AboveFold from './Components/AboveFold';
 
 const AppContainer = styled.div`
   background: white;
@@ -27,7 +26,6 @@ class App extends Component {
     return (
       <AppContainer>
         <AnimatedNavbar duration={this.state.duration} />
-        <AboveFold />
       </AppContainer>
     );
   }

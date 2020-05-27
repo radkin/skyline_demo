@@ -8,6 +8,7 @@ import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
 import ProductsDropdown from "./DropdownContents/ProductsDropdown"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
+import AboveFold from './Components/AboveFold';
 
 const navbarConfig = [
   { title: "Products", dropdown: ProductsDropdown },
@@ -106,6 +107,7 @@ export default class AnimatedNavbar extends Component {
             </Navbar>
           </div>
         <RevealTopCat />
+        <AboveFold />
         </div>
       </Flipper>
     )
