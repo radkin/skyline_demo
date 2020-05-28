@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Icon, DropdownSection, Heading } from "./Components"
 
-const ProductsDropdownEl = styled.div`
+const AbilitiesDropdownEl = styled.div`
   width: 30rem;
 `
 
@@ -15,7 +15,7 @@ const Logo = styled.div`
   background-color: ${({ color }) => `var(--${color})`};
 `
 
-const SubProductsList = styled.ul`
+const SubAbilitiesList = styled.ul`
   li {
     display: flex;
     margin-bottom: 1rem;
@@ -30,7 +30,7 @@ const SubProductsList = styled.ul`
   }
 `
 
-const ProductsSection = styled.ul`
+const AbilitiesSection = styled.ul`
   li {
     display: flex;
   }
@@ -49,18 +49,18 @@ h3 {
 }
 `
 
-const ProductsDropdown = () => {
+const AbilitiesDropdown = () => {
   return (
-    <ProductsDropdownEl>
+    <AbilitiesDropdownEl>
       <DropdownSection data-first-dropdown-section>
-        <ProductsSection>
+        <AbilitiesSection>
           <li>
             <div>
               <Logo color="blue" />
             </div>
             <div>
-              <Heading color="blue">Payments</Heading>
-              <p>A complete payments platform</p>
+              <Heading color="blue">Mice and Birds</Heading>
+              <p>Small critters, tasty treats</p>
             </div>
           </li>
           <li>
@@ -68,8 +68,8 @@ const ProductsDropdown = () => {
               <Logo color="green" />
             </div>
             <div>
-              <Heading color="green">Billing</Heading>
-              <p>Build and scale your recurring business model</p>
+              <Heading color="green">Ear Position</Heading>
+              <p>Use our keen hearing to listen for mice</p>
             </div>
           </li>
           <li>
@@ -77,39 +77,39 @@ const ProductsDropdown = () => {
               <Logo color="teal" />
             </div>
             <div>
-              <Heading color="teal">Connect</Heading>
+              <Heading color="teal">Acrobatics</Heading>
               <p style={{ marginBottom: 0 }}>
-                Everything platforms need to get sellers paid
+                Doing flips in the air allows you to land on anything
               </p>
             </div>
           </li>
-        </ProductsSection>
+        </AbilitiesSection>
       </DropdownSection>
       <DropdownSection>
-        <SubProductsList>
+        <SubAbilitiesList>
           <li>
-            <Heading noMarginBottom>Sigma</Heading>
-            <div>Your business data at your fingertips.</div>
+            <Heading noMarginBottom>See</Heading>
+            <div>Broad spectrum vision with three cones</div>
           </li>
           <li>
-            <Heading noMarginBottom>Atlas</Heading>
-            <div>The best way to start an internet business.</div>
+            <Heading noMarginBottom>Hear</Heading>
+            <div>Sound localization and broader range</div>
           </li>
           <li>
-            <Heading noMarginBottom>Radar</Heading>
-            <div>Fight fraud with machine learning.</div>
+            <Heading noMarginBottom>Smell</Heading>
+            <div>200 million scent receptors</div>
           </li>
-        </SubProductsList>
+        </SubAbilitiesList>
         <WorksWithStripe>
           <Heading noMarginBottom>
             <a href="/">
-              <Icon /> Works with Stripe
+              <Icon /> Nose prints for unique id
             </a>
           </Heading>
         </WorksWithStripe>
       </DropdownSection>
-    </ProductsDropdownEl>
+    </AbilitiesDropdownEl>
   )
 }
 
-export default ProductsDropdown
+export default AbilitiesDropdown

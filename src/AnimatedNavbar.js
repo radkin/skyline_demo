@@ -5,13 +5,13 @@ import { Flipper } from "react-flip-toolkit"
 import DropdownContainer from "./DropdownContainer"
 import CompanyDropdown from "./DropdownContents/CompanyDropdown"
 import DevelopersDropdown from "./DropdownContents/DevelopersDropdown"
-import ProductsDropdown from "./DropdownContents/ProductsDropdown"
+import AbilitiesDropdown from "./DropdownContents/AbilitiesDropdown"
 import RevealTopCat from './Components/RevealTopCat';
 import './AnimatedNavbar.css';
 import AboveFold from './Components/AboveFold';
 
 const navbarConfig = [
-  { title: "Products", dropdown: ProductsDropdown },
+  { title: "Abilities", dropdown: AbilitiesDropdown },
   { title: "Developers", dropdown: DevelopersDropdown },
   { title: "Company", dropdown: CompanyDropdown }
 ]
