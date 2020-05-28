@@ -8,7 +8,7 @@ import {
   LinkList
 } from "./Components"
 
-const DevelopersDropdownEl = styled.div`
+const TreatsDropdownEl = styled.div`
   width: 25rem;
 `
 
@@ -19,39 +19,39 @@ const Flex = styled.div`
   }
 `
 
-const DevelopersDropdown = () => {
+const TreatsDropdown = () => {
   return (
-    <DevelopersDropdownEl>
+    <TreatsDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <div>
           <Heading>Documentation</Heading>
-          <p>Start integrating Stripe&rsquo;s products and tools</p>
+          <p>How to make your own treats</p>
           <Flex>
             <div>
               <h4>Get Started</h4>
               <LinkList>
                 <li>
-                  <a href="/">Elements</a>
+                  <a href="/">Greenies</a>
                 </li>
                 <li>
-                  <a href="/">Checkout</a>
+                  <a href="/">Wet</a>
                 </li>
                 <li>
-                  <a href="/">Mobile apps</a>
+                  <a href="/">Dry</a>
                 </li>
               </LinkList>
             </div>
             <div>
-              <h4>Popular Topics</h4>
+              <h4>Popular Flavors</h4>
               <LinkList>
                 <li>
-                  <a href="/">Apple Pay</a>
+                  <a href="/">Tuna</a>
                 </li>
                 <li>
-                  <a href="/">Testing</a>
+                  <a href="/">Chicken</a>
                 </li>
                 <li>
-                  <a href="/">Launch Checklist</a>
+                  <a href="/">Salmon</a>
                 </li>
               </LinkList>
             </div>
@@ -62,23 +62,23 @@ const DevelopersDropdown = () => {
         <ul>
           <HeadingLink>
             <a href="/">
-              <Icon /> Full API Reference
+              <Icon /> Formulas
             </a>
           </HeadingLink>
           <HeadingLink>
             <a href="/">
-              <Icon /> API Status
+              <Icon /> Locations
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
             <a href="/">
-              <Icon /> Open Source
+              <Icon /> New Prey
             </a>
           </HeadingLink>
         </ul>
       </DropdownSection>
-    </DevelopersDropdownEl>
+    </TreatsDropdownEl>
   )
 }
 
-export default DevelopersDropdown
+export default TreatsDropdown

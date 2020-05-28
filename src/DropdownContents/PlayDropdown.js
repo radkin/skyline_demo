@@ -8,33 +8,33 @@ import {
   Icon
 } from "./Components"
 
-const CompanyDropdownEl = styled.div`
+const PlayDropdownEl = styled.div`
   width: 18.5rem;
 `
 
-const CompanyDropdown = () => {
+const PlayDropdown = () => {
   return (
-    <CompanyDropdownEl>
+    <PlayDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <ul>
           <HeadingLink>
             <a href="/">
-              <Icon /> About Stripe
+              <Icon /> About Play
             </a>
           </HeadingLink>
           <HeadingLink>
             <a href="/">
-              <Icon />Customers
+              <Icon />Crackle Paper
             </a>
           </HeadingLink>
           <HeadingLink>
             <a href="/">
-              <Icon />Jobs
+              <Icon />Feather Toys
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
             <a href="/">
-              <Icon />Environment
+              <Icon />Scratching Posts
             </a>
           </HeadingLink>
         </ul>
@@ -42,23 +42,23 @@ const CompanyDropdown = () => {
       <DropdownSection>
         <div>
           <Heading>
-            <Icon />From the Blog
+            <Icon />Interactive
           </Heading>
           <LinkList marginLeft="25px">
             <li>
-              <a href="/">Stripe Atlas &rsaquo;</a>
+              <a href="/">360 degree self rotating ball &rsaquo;</a>
             </li>
             <li>
-              <a href="/">Stripe Home &rsaquo;</a>
+              <a href="/">Self Groomer &rsaquo;</a>
             </li>
             <li>
-              <a href="/">Improved Fraud Detection &rsaquo;</a>
+              <a href="/">Squeaky mouse hunter &rsaquo;</a>
             </li>
           </LinkList>
         </div>
       </DropdownSection>
-    </CompanyDropdownEl>
+    </PlayDropdownEl>
   )
 }
 
-export default CompanyDropdown
+export default PlayDropdown
