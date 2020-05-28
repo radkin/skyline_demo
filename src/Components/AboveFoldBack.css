@@ -1,0 +1,22 @@
+.kittyRow {
+  padding-top: 405px;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  margin: auto;
+  width: 50%
+}
+
+.kitty {
+  padding-left: 10px;
+  width: 50%;
+}
+
+.pic {
+  border-radius: 20px;
+}
+
+p {
+  color: #383838;
+  font-family: sans-serif;
+}

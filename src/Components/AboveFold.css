@@ -1,0 +1,32 @@
+.picContainerLeft {
+  width: 25%;
+  float:left;
+}
+
+.picContainerRight {
+  width: 25%;
+  float: right;
+}
+
+.pic {
+  background-color: white;
+}
+
+.cats {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.fur {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.silly {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.foldParent {
+  text-align: center;
+}
