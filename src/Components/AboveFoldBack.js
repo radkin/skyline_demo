@@ -14,9 +14,11 @@ class AboveFoldBack extends Component {
 
         <div className="kitty">
           <Fade left>
-            <p>They may be cute when they're sleeping</p>
-            <p>but these beasties will wake you up in</p>
-            <p>the middle of the night!</p>
+            <div>
+              They may be cute when they're sleeping
+              but these beasties will wake you up in
+              the middle of the night!
+            </div>
           </Fade>
         </div>
         <div className="kitty">
@@ -27,9 +29,11 @@ class AboveFoldBack extends Component {
 
         <div className="kitty">
           <Fade left delay={200}>
-            <p>They may be cute when they're sleeping</p>
-            <p>but these beasties will wake you up in</p>
-            <p>the middle of the night!</p>
+            <div>
+              They may be cute when they're sleeping
+              but these beasties will wake you up in
+              the middle of the night!
+            </div>
           </Fade>
         </div>
         <div className="kitty">
