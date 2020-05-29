@@ -1,9 +1,9 @@
-.kittyRow {
+.skyRow {
   display:flex;
   flex-direction:row;
   justify-content: flex-start;
   margin: auto;
-  width: 50%
+  width: 50%;
 }
 
 .graph {
@@ -11,10 +11,21 @@
   width: 100%;
 }
 
-.pic {
+.pic1 {
   border-radius: 20px;
-  height: 90%;
-  width: 90%;
+  height: 85%;
+  width: 85%;
+}
+
+.pic2 {
+  border-radius: 20px;
+  height: 110%;
+  width: 110%;
+  padding-bottom: 50px;
+}
+
+.text {
+  padding-top: 50px;
 }
 
 p {

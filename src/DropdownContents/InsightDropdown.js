@@ -8,7 +8,7 @@ import {
   LinkList
 } from "./Components"
 
-const TreatsDropdownEl = styled.div`
+const InsightDropdownEl = styled.div`
   width: 25rem;
 `
 
@@ -19,39 +19,39 @@ const Flex = styled.div`
   }
 `
 
-const TreatsDropdown = () => {
+const InsightDropdown = () => {
   return (
-    <TreatsDropdownEl>
+    <InsightDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <div>
           <Heading>Documentation</Heading>
-          <p>How to make your own treats</p>
+          <p>Custom predictive algorithms</p>
           <Flex>
             <div>
               <h4>Get Started</h4>
               <LinkList>
                 <li>
-                  <a href="/">Greenies</a>
+                  <a href="/">Statistics</a>
                 </li>
                 <li>
-                  <a href="/">Wet</a>
+                  <a href="/">Machine Learning</a>
                 </li>
                 <li>
-                  <a href="/">Dry</a>
+                  <a href="/">Cranial nerve augmentation</a>
                 </li>
               </LinkList>
             </div>
             <div>
-              <h4>Popular Flavors</h4>
+              <h4>Popular Imrovements</h4>
               <LinkList>
                 <li>
-                  <a href="/">Tuna</a>
+                  <a href="/">Cortex Nerve Density</a>
                 </li>
                 <li>
-                  <a href="/">Chicken</a>
+                  <a href="/">Cortexifan treatment</a>
                 </li>
                 <li>
-                  <a href="/">Salmon</a>
+                  <a href="/">Cellular regeneration</a>
                 </li>
               </LinkList>
             </div>
@@ -72,13 +72,13 @@ const TreatsDropdown = () => {
           </HeadingLink>
           <HeadingLink noMarginBottom>
             <a href="/">
-              <Icon /> New Prey
+              <Icon /> New Research
             </a>
           </HeadingLink>
         </ul>
       </DropdownSection>
-    </TreatsDropdownEl>
+    </InsightDropdownEl>
   )
 }
 
-export default TreatsDropdown
+export default InsightDropdown

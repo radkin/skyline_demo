@@ -2,14 +2,14 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import rrConfig from 'react-reveal/globals';
-import './RevealTopCat.css';
+import './RevealSkyline.css';
 
 rrConfig({ ssrFadeout: true });
 
 class ZoomExample extends React.Component {
   render() {
     return (
-      <div className="catBack">
+      <div className="skyBack">
         <Zoom>
           <img src={require('../assets/images/Header.svg')} alt="city skyline" className="photo"/>
         </Zoom>

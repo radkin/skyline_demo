@@ -8,33 +8,33 @@ import {
   Icon
 } from "./Components"
 
-const PlayDropdownEl = styled.div`
+const ResearchDropdownEl = styled.div`
   width: 18.5rem;
 `
 
-const PlayDropdown = () => {
+const ResearchDropdown = () => {
   return (
-    <PlayDropdownEl>
+    <ResearchDropdownEl>
       <DropdownSection data-first-dropdown-section>
         <ul>
           <HeadingLink>
             <a href="/">
-              <Icon /> About Play
+              <Icon /> About Research
             </a>
           </HeadingLink>
           <HeadingLink>
             <a href="/">
-              <Icon />Crackle Paper
+              <Icon />Cortexifan Trials
             </a>
           </HeadingLink>
           <HeadingLink>
             <a href="/">
-              <Icon />Feather Toys
+              <Icon />Genetic Manipulation
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
             <a href="/">
-              <Icon />Scratching Posts
+              <Icon />Multidimentional Travel
             </a>
           </HeadingLink>
         </ul>
@@ -46,19 +46,19 @@ const PlayDropdown = () => {
           </Heading>
           <LinkList marginLeft="25px">
             <li>
-              <a href="/">360 degree self rotating ball &rsaquo;</a>
+              <a href="/">Self healing machines &rsaquo;</a>
             </li>
             <li>
-              <a href="/">Self Groomer &rsaquo;</a>
+              <a href="/">Self Awareness and AI &rsaquo;</a>
             </li>
             <li>
-              <a href="/">Squeaky mouse hunter &rsaquo;</a>
+              <a href="/">Personal Chemical Augmentation &rsaquo;</a>
             </li>
           </LinkList>
         </div>
       </DropdownSection>
-    </PlayDropdownEl>
+    </ResearchDropdownEl>
   )
 }
 
-export default PlayDropdown
+export default ResearchDropdown

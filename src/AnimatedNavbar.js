@@ -3,17 +3,17 @@ import Navbar from "./Navbar"
 import NavbarItem from "./Navbar/NavbarItem"
 import { Flipper } from "react-flip-toolkit"
 import DropdownContainer from "./DropdownContainer"
-import PlayDropdown from "./DropdownContents/PlayDropdown"
-import TreatsDropdown from "./DropdownContents/TreatsDropdown"
-import AbilitiesDropdown from "./DropdownContents/AbilitiesDropdown"
-import RevealTopCat from './Components/RevealTopCat';
+import ResearchDropdown from "./DropdownContents/ResearchDropdown"
+import InsightDropdown from "./DropdownContents/InsightDropdown"
+import PrecisionDropdown from "./DropdownContents/PrecisionDropdown"
+import RevealSkyline from './Components/RevealSkyline';
 import './AnimatedNavbar.css';
 import AboveFold from './Components/AboveFold';
 
 const navbarConfig = [
-  { title: "Abilities", dropdown: AbilitiesDropdown },
-  { title: "Treats", dropdown: TreatsDropdown },
-  { title: "Play", dropdown: PlayDropdown }
+  { title: "Precision", dropdown: PrecisionDropdown },
+  { title: "Insight", dropdown: InsightDropdown },
+  { title: "Research", dropdown: ResearchDropdown }
 ]
 
 export default class AnimatedNavbar extends Component {
@@ -106,7 +106,7 @@ export default class AnimatedNavbar extends Component {
               })}
             </Navbar>
           </div>
-        <RevealTopCat />
+        <RevealSkyline />
         <AboveFold />
         </div>
       </Flipper>

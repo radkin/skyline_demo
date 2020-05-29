@@ -10,35 +10,34 @@ rrConfig({ ssrFadeout: true });
 class AboveFoldBack extends Component {
   render() {
     return(
-      <div className="kittyRow">
+      <div className="skyRow">
 
         <div className="graph">
           <Fade left>
-            <div>
-              They may be cute when they're sleeping
-              but these beasties will wake you up in
-              the middle of the night!
+            <div className="text">
+              Predict cellular growth and chart nerve
+              regeneration with incredible precision.
             </div>
           </Fade>
         </div>
         <div className="graph">
           <Fade left delay={100}>
-            <img src={graph2} alt="graph2" className="pic"/>
+            <img src={graph2} alt="graph2" className="pic1"/>
           </Fade>
         </div>
 
         <div className="graph">
           <Fade left delay={200}>
-            <div>
-              They may be cute when they're sleeping
-              but these beasties will wake you up in
-              the middle of the night!
+            <div className="text">
+            Using Skyline Architecture you will be able to
+            see alternate dimensions as if peering through
+            a mirror.
             </div>
           </Fade>
         </div>
         <div className="graph">
           <Fade left delay={300}>
-            <img src={graph1} alt="graph1" className="pic"/>
+            <img src={graph1} alt="graph1" className="pic2"/>
           </Fade>
         </div>
 
