@@ -31,13 +31,28 @@ const InsightDropdown = () => {
               <h4>Get Started</h4>
               <LinkList>
                 <li>
-                  <a href="/">Statistics</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.ratingraph.com/tv-shows/fringe-ratings-30746/">
+                    Statistics
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Machine Learning</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://24.media.tumblr.com/aad7b9a2eb41722ace3065ec77a94706/tumblr_mk1dejHWVB1rzirmio1_500.jpg">
+                    Machine Learning
+                  </a>
                 </li>
                 <li>
-                  <a href="/">Cranial nerve augmentation</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://www.imdb.com/title/tt1537548/">
+                    Cranial nerve augmentation
+                    </a>
                 </li>
               </LinkList>
             </div>
@@ -48,7 +63,12 @@ const InsightDropdown = () => {
                   <a href="/">Cortex Nerve Density</a>
                 </li>
                 <li>
-                  <a href="/">Cortexifan treatment</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://ih1.redbubble.net/image.13349442.1611/fc,550x550,navy.jpg">
+                    Cortexifan treatment
+                    </a>
                 </li>
                 <li>
                   <a href="/">Cellular regeneration</a>

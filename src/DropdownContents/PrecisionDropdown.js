@@ -89,7 +89,7 @@ const PrecisionDropdown = () => {
         <SubPrecisionList>
           <li>
             <Heading noMarginBottom>Amber</Heading>
-            <div>Broad spectrum statis chambers</div>
+            <div>Broad spectrum stasis chambers</div>
           </li>
           <li>
             <Heading noMarginBottom>Brain</Heading>
@@ -102,7 +102,7 @@ const PrecisionDropdown = () => {
         </SubPrecisionList>
         <WorksWithStripe>
           <Heading noMarginBottom>
-            <a href="/">
+            <a href="https://en.wikipedia.org/wiki/White_Tulip">
               <Icon />Travel options for time and space
             </a>
           </Heading>
