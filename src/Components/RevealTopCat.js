@@ -11,7 +11,7 @@ class ZoomExample extends React.Component {
     return (
       <div className="catBack">
         <Zoom>
-          <img src={require('../cat.jpg')} alt="top cat" className="photo"/>
+          <img src={require('../assets/images/Header.svg')} alt="city skyline" className="photo"/>
         </Zoom>
       </div>
     );
