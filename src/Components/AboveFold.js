@@ -15,7 +15,7 @@ class AboveFold extends React.Component {
 
           <div>
             <Fade left delay={400}>
-              <img src={building2} alt="building2" className="pic"/>
+              <img src={building2} alt="building2"/>
             </Fade>
           </div>
         </div>
@@ -37,7 +37,7 @@ class AboveFold extends React.Component {
 
         <div className="picContainerRight">
           <Fade right delay={200}>
-            <img src={building1} alt="building1" className="pic"/>
+            <img src={building1} alt="building1"/>
           </Fade>
         </div>
       </div>

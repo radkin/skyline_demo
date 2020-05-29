@@ -1,5 +1,4 @@
 .kittyRow {
-  padding-top: 405px;
   display:flex;
   flex-direction:row;
   justify-content: flex-start;
