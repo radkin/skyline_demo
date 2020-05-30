@@ -2,43 +2,42 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
 import './AboveFoldBack.css';
-import gusPerch from '../assets/images/gus_perch_sm.jpg';
-import sleepKit from '../assets/images/sleeping_kitties_sm.jpg';
+import graph2 from '../assets/images/graph2.svg';
+import graph1 from '../assets/images/graph1.svg';
 
 rrConfig({ ssrFadeout: true });
 
 class AboveFoldBack extends Component {
   render() {
     return(
-      <div className="kittyRow">
+      <div className="skyRow">
 
-        <div className="kitty">
+        <div className="graph">
           <Fade left>
-            <div>
-              They may be cute when they're sleeping
-              but these beasties will wake you up in
-              the middle of the night!
+            <div className="text">
+              Predict cellular growth and chart nerve
+              regeneration with incredible precision.
             </div>
           </Fade>
         </div>
-        <div className="kitty">
+        <div className="graph">
           <Fade left delay={100}>
-            <img src={gusPerch} alt="gus perch" className="pic"/>
+            <img src={graph2} alt="graph2" className="pic1"/>
           </Fade>
         </div>
 
-        <div className="kitty">
+        <div className="graph">
           <Fade left delay={200}>
-            <div>
-              They may be cute when they're sleeping
-              but these beasties will wake you up in
-              the middle of the night!
+            <div className="text">
+            Using Skyline Architecture you will be able to
+            see alternate dimensions as if peering through
+            a mirror.
             </div>
           </Fade>
         </div>
-        <div className="kitty">
+        <div className="graph">
           <Fade left delay={300}>
-            <img src={sleepKit} alt="sleeping kitties" className="pic"/>
+            <img src={graph1} alt="graph1" className="pic2"/>
           </Fade>
         </div>
 

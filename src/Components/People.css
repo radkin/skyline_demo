@@ -1,14 +1,12 @@
-.skyRow {
+.people {
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   justify-content: flex-start;
   margin: auto;
-  width: 50%;
 }
 
-.graph {
+.person {
   padding-left: 10px;
-  width: 100%;
 }
 
 .pic1 {
@@ -21,14 +19,4 @@
   border-radius: 20px;
   height: 110%;
   width: 110%;
-  padding-bottom: 50px;
-}
-
-.text {
-  padding-top: 50px;
-}
-
-p {
-  color: white;
-  font-family: sans-serif;
 }

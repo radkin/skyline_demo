@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Icon, DropdownSection, Heading } from "./Components"
 
-const AbilitiesDropdownEl = styled.div`
+const PrecisionDropdownEl = styled.div`
   width: 30rem;
 `
 
@@ -15,7 +15,7 @@ const Logo = styled.div`
   background-color: ${({ color }) => `var(--${color})`};
 `
 
-const SubAbilitiesList = styled.ul`
+const SubPrecisionList = styled.ul`
   li {
     display: flex;
     margin-bottom: 1rem;
@@ -30,7 +30,7 @@ const SubAbilitiesList = styled.ul`
   }
 `
 
-const AbilitiesSection = styled.ul`
+const PrecisionSection = styled.ul`
   li {
     display: flex;
   }
@@ -49,18 +49,18 @@ h3 {
 }
 `
 
-const AbilitiesDropdown = () => {
+const PrecisionDropdown = () => {
   return (
-    <AbilitiesDropdownEl>
+    <PrecisionDropdownEl>
       <DropdownSection data-first-dropdown-section>
-        <AbilitiesSection>
+        <PrecisionSection>
           <li>
             <div>
               <Logo color="blue" />
             </div>
             <div>
-              <Heading color="blue">Mice and Birds</Heading>
-              <p>Small critters, tasty treats</p>
+              <Heading color="blue">Metrics</Heading>
+              <p>time series, linear, millisecond</p>
             </div>
           </li>
           <li>
@@ -68,8 +68,8 @@ const AbilitiesDropdown = () => {
               <Logo color="green" />
             </div>
             <div>
-              <Heading color="green">Ear Position</Heading>
-              <p>Use our keen hearing to listen for mice</p>
+              <Heading color="green">Predictive</Heading>
+              <p>Machine Learning algorithm</p>
             </div>
           </li>
           <li>
@@ -77,39 +77,39 @@ const AbilitiesDropdown = () => {
               <Logo color="teal" />
             </div>
             <div>
-              <Heading color="teal">Acrobatics</Heading>
+              <Heading color="teal">Cybernetics</Heading>
               <p style={{ marginBottom: 0 }}>
-                Doing flips in the air allows you to land on anything
+                Flesh and machine combined perfection
               </p>
             </div>
           </li>
-        </AbilitiesSection>
+        </PrecisionSection>
       </DropdownSection>
       <DropdownSection>
-        <SubAbilitiesList>
+        <SubPrecisionList>
           <li>
-            <Heading noMarginBottom>See</Heading>
-            <div>Broad spectrum vision with three cones</div>
+            <Heading noMarginBottom>Amber</Heading>
+            <div>Broad spectrum stasis chambers</div>
           </li>
           <li>
-            <Heading noMarginBottom>Hear</Heading>
-            <div>Sound localization and broader range</div>
+            <Heading noMarginBottom>Brain</Heading>
+            <div>Neurochemical enhancements</div>
           </li>
           <li>
-            <Heading noMarginBottom>Smell</Heading>
-            <div>200 million scent receptors</div>
+            <Heading noMarginBottom>Shield</Heading>
+            <div>Protect yourself from temporal threats</div>
           </li>
-        </SubAbilitiesList>
+        </SubPrecisionList>
         <WorksWithStripe>
           <Heading noMarginBottom>
-            <a href="/">
-              <Icon /> Nose prints for unique id
+            <a href="https://en.wikipedia.org/wiki/White_Tulip">
+              <Icon />Travel options for time and space
             </a>
           </Heading>
         </WorksWithStripe>
       </DropdownSection>
-    </AbilitiesDropdownEl>
+    </PrecisionDropdownEl>
   )
 }
 
-export default AbilitiesDropdown
+export default PrecisionDropdown

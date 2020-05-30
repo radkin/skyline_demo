@@ -2,8 +2,8 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
 import './AboveFold.css';
-import onPerch from '../assets/images/on_perch_sm.jpg';
-import whatThat from '../assets/images/what_was_that_sm.jpg';
+import building1 from '../assets/images/Building1.svg';
+import building2 from '../assets/images/building2.svg';
 
 rrConfig({ ssrFadeout: true });
 
@@ -15,19 +15,19 @@ class AboveFold extends React.Component {
 
           <div>
             <Fade left delay={400}>
-              <img src={onPerch} alt="on perch" className="pic"/>
+              <img src={building2} alt="building2"/>
             </Fade>
           </div>
         </div>
           <Fade bottom delay={800}>
-            <div className="cats">
-              <h1>Cats</h1>
+            <div className="sky">
+              <h1>Skyline</h1>
               <Fade bottom delay={1200}>
-                <div className="fur">
-                  <h2>more fur than ever</h2>
+                <div className="pr">
+                  <h2>Precision</h2>
                   <Fade bottom delay={1700}>
-                    <div className="silly">
-                      <h2>Certainly way more silly than you or I.</h2>
+                    <div className="in">
+                      <h2>Insight</h2>
                     </div>
                   </Fade>
                 </div>
@@ -37,7 +37,7 @@ class AboveFold extends React.Component {
 
         <div className="picContainerRight">
           <Fade right delay={200}>
-            <img src={whatThat} alt="what was that" className="pic"/>
+            <img src={building1} alt="building1"/>
           </Fade>
         </div>
       </div>
