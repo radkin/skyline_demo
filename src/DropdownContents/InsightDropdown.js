@@ -60,7 +60,12 @@ const InsightDropdown = () => {
               <h4>Popular Imrovements</h4>
               <LinkList>
                 <li>
-                  <a href="/">Cortex Nerve Density</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://fringe.fandom.com/wiki/Cortexiphan">
+                    Cortex Nerve Density
+                  </a>
                 </li>
                 <li>
                   <a
@@ -71,7 +76,12 @@ const InsightDropdown = () => {
                     </a>
                 </li>
                 <li>
-                  <a href="/">Cellular regeneration</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://en.wikipedia.org/wiki/Brave_New_World_(Fringe)">
+                    Cellular regeneration
+                  </a>
                 </li>
               </LinkList>
             </div>
@@ -81,18 +91,27 @@ const InsightDropdown = () => {
       <DropdownSection>
         <ul>
           <HeadingLink>
-            <a href="/">
-              <Icon /> Formulas
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fringe.fandom.com/wiki/Neogenesis">
+              <Icon />NeoGenesis
             </a>
           </HeadingLink>
           <HeadingLink>
-            <a href="/">
-              <Icon /> Locations
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fringe.fandom.com/wiki/Teleportation_device">
+              <Icon />Teleportation
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
-            <a href="/">
-              <Icon /> New Research
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fringe.fandom.com/wiki/Harvard_Laboratory">
+              <Icon />New Research
             </a>
           </HeadingLink>
         </ul>
