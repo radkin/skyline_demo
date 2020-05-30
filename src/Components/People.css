@@ -1,0 +1,22 @@
+.people {
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.person {
+  padding-left: 10px;
+}
+
+.pic1 {
+  border-radius: 20px;
+  height: 85%;
+  width: 85%;
+}
+
+.pic2 {
+  border-radius: 20px;
+  height: 110%;
+  width: 110%;
+}
