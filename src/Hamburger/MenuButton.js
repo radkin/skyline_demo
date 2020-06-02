@@ -34,7 +34,7 @@ class MenuButton extends Component {
       line: {
         height: '2px',
         width: '20px',
-        background: this.state.color,
+        background: 'black',
         transition: 'all 0.2s ease',
       },
       lineTop: {

@@ -32,9 +32,9 @@ class App extends Component {
           opacity: 0.9,
           display:'flex',
           alignItems:'center',
-          background: 'black',
+          background: 'white',
           width: '100%',
-          color: 'white',
+          color: 'black',
           fontFamily:'Lobster',
         },
         logo: {
@@ -62,8 +62,7 @@ class App extends Component {
     return(
       <div>
         <div style={styles.container}>
-          <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='white'/>
-          <div style={styles.logo}>Logo</div>
+          <MenuButton open={this.state.menuOpen} onClick={()=>this.handleMenuClick()} color='black'/>
         </div>
         <Menu open={this.state.menuOpen}>
           {menuItems}
