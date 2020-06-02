@@ -9,6 +9,7 @@ import PrecisionDropdown from "./DropdownContents/PrecisionDropdown"
 import RevealSkyline from './Components/RevealSkyline';
 import './AnimatedNavbar.css';
 import AboveFold from './Components/AboveFold';
+import { Main } from './Hamburger';
 
 const navbarConfig = [
   { title: "Precision", dropdown: PrecisionDropdown },
@@ -105,6 +106,7 @@ export default class AnimatedNavbar extends Component {
                 )
               })}
             </Navbar>
+            <Main />
           </div>
         <RevealSkyline />
         <AboveFold />
