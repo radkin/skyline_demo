@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import AnimatedNavbar from "./AnimatedNavbar"
 import styled from "styled-components"
 import AboveFoldBack from './Components/AboveFoldBack';
-import Main from './Components/Main';
+import Main from './Hamburger/Main';
 
 const AppContainer = styled.div`
   background: white;
