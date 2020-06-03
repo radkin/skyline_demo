@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+
+// custom components
 import './Main.css';
 import MenuItem from './MenuItem';
 import Menu from './Menu';
 import MenuButton from './MenuButton';
 import Footer from './Footer';
 
-class App extends Component {
+class Main extends Component {
   constructor(props){
     super(props);
     this.state={
@@ -50,13 +52,37 @@ class App extends Component {
           transition: 'filter 0.5s ease',
         },
       }
-    const menu = ['About Us','Our Products','Services','FAQ','Contact Us']
+    const menu = [
+      {
+        title: 'About Us',
+        href: 'https://github.com/radkin'
+      },
+      {
+        title: 'Our Products',
+        href: 'https://en.wikipedia.org/wiki/Fringe_Product'
+      },
+      {
+        title: 'Services',
+        href: 'https://www.oxfordlearnersdictionaries.com/us/definition/american_english/fringe-benefit'
+      },
+      {
+        title: 'FAQ',
+        href: 'https://fringe.fandom.com/wiki/FringeWiki'
+      },
+      {
+        title: 'Contact Us',
+        href: 'mailto:foo@bar.com'
+      }
+    ];
     const menuItems = menu.map((val,index)=>{
       return (
         <MenuItem
           key={index}
           delay={`${index * 0.1}s`}
-          onClick={()=>{this.handleLinkClick();}}>{val}</MenuItem>)
+          onClick={()=>{window.open(val.href, "_blank")}}
+        >
+          {val.title}
+        </MenuItem>)
     });
 
     return(
@@ -70,25 +96,6 @@ class App extends Component {
         <div style={styles.body}>
           <Footer name='Menu'/>
         </div>
-      </div>
-    )
-  }
-}
-
-class Main extends Component {
-  render(){
-    const styles = {
-      main: {
-        display:'flex',
-        flexDirection:'column',
-        alignItems: 'center',
-        height: '100vh',
-      }
-    }
-
-    return (
-      <div style={styles.main}>
-        <App />
       </div>
     )
   }

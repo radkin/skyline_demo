@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
+
 import './AboveFold.css';
 import building1 from '../assets/images/Building1.svg';
 import building2 from '../assets/images/building2.svg';
@@ -19,15 +20,15 @@ class AboveFold extends React.Component {
             </Fade>
           </div>
         </div>
-          <Fade bottom delay={800}>
+          <Fade bottom delay={400}>
             <div className="sky">
               <h1>Skyline</h1>
-              <Fade bottom delay={1200}>
+              <Fade bottom delay={600}>
                 <div className="pr">
-                  <h2>Precision</h2>
-                  <Fade bottom delay={1700}>
+                  <h2>Scientific Solutions</h2>
+                  <Fade bottom delay={850}>
                     <div className="in">
-                      <h2>Insight</h2>
+                      <h2>That stretch your mind</h2>
                     </div>
                   </Fade>
                 </div>

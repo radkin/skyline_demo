@@ -20,7 +20,7 @@ function Footer(props) {
       background: props.color,
     },
     text: {
-      padding: '0.5rem',
+      padding: '1.5rem',
     }
   }
 
@@ -35,8 +35,8 @@ function Footer(props) {
 }
 
 Footer.defaultProps = {
-  color: 'black',
-  title: 'hello world!'
+  color: '#de6432',
+  title: 'Skyline labs Inc.'
 }
 
 Footer.propTypes = {

@@ -1,5 +1,5 @@
-# cat_demo
-ReactJS portfolio experimentation in old and new tech
+# skyline_demo
+ReactJS portfolio experimentation in custom nav components and animation.
 
 ### Certified for use with
 * Node 10.16.3
