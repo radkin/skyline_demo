@@ -1,6 +1,6 @@
 {
-  "name": "cats_demo",
-  "version": "0.2.0",
+  "name": "skyline_demo",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
