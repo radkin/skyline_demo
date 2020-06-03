@@ -20,7 +20,7 @@ function Footer(props) {
       background: props.color,
     },
     text: {
-      padding: '0.5rem',
+      padding: '1.5rem',
     }
   }
 

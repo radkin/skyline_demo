@@ -13,9 +13,10 @@
   padding: 10px;
   position: fixed;
   top: 0;
+  left: 0;
   transition: top 0.6s;
 }
 
 .navbar--hidden {
-  top: -100px;
+  top: -65px;
 }
