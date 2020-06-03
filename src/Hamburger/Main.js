@@ -5,7 +5,7 @@ import Menu from './Menu';
 import MenuButton from './MenuButton';
 import Footer from './Footer';
 
-class App extends Component {
+class Main extends Component {
   constructor(props){
     super(props);
     this.state={
@@ -70,25 +70,6 @@ class App extends Component {
         <div style={styles.body}>
           <Footer name='Menu'/>
         </div>
-      </div>
-    )
-  }
-}
-
-class Main extends Component {
-  render(){
-    const styles = {
-      main: {
-        display:'flex',
-        flexDirection:'column',
-        alignItems: 'center',
-        height: '100vh',
-      }
-    }
-
-    return (
-      <div style={styles.main}>
-        <App />
       </div>
     )
   }
