@@ -1,11 +1,13 @@
-import React, { Component } from "react"
-import Navbar from "./Navbar"
-import NavbarItem from "./Navbar/NavbarItem"
-import { Flipper } from "react-flip-toolkit"
-import DropdownContainer from "./DropdownContainer"
-import ResearchDropdown from "./DropdownContents/ResearchDropdown"
-import InsightDropdown from "./DropdownContents/InsightDropdown"
-import PrecisionDropdown from "./DropdownContents/PrecisionDropdown"
+import React, { Component } from "react";
+import classnames from "classnames";
+
+import Navbar from "./Navbar";
+import NavbarItem from "./Navbar/NavbarItem";
+import { Flipper } from "react-flip-toolkit";
+import DropdownContainer from "./DropdownContainer";
+import ResearchDropdown from "./DropdownContents/ResearchDropdown";
+import InsightDropdown from "./DropdownContents/InsightDropdown";
+import PrecisionDropdown from "./DropdownContents/PrecisionDropdown";
 import RevealSkyline from './Components/RevealSkyline';
 import './AnimatedNavbar.css';
 import AboveFold from './Components/AboveFold';
@@ -18,9 +20,15 @@ const navbarConfig = [
 ]
 
 export default class AnimatedNavbar extends Component {
-  state = {
-    activeIndices: [],
-    scrollPosition: 0
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      prevScrollpos: window.pageYOffset,
+      visible: true,
+      activeIndices: [],
+      scrollPosition: 0
+    };
   }
 
   resetDropdownState = i => {
@@ -56,6 +64,27 @@ export default class AnimatedNavbar extends Component {
     )
   }
 
+  // hide & reveal logic for animated nav
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.handleScroll);
+  }
+
+  handleScroll = () => {
+    const { prevScrollpos } = this.state;
+
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollpos > currentScrollPos;
+
+    this.setState({
+      prevScrollpos: currentScrollPos,
+      visible
+    });
+  };
+
   render() {
     const { duration } = this.props
     let CurrentDropdown
@@ -80,6 +109,9 @@ export default class AnimatedNavbar extends Component {
       <Flipper
         flipKey={currentIndex}
         spring={duration === 300 ? "noWobble" : { stiffness: 10, damping: 10 }}
+        className={classnames("navbar", {
+          "navbar--hidden": !this.state.visible
+        })}
       >
         <div id="behind">
           <div id="front">
