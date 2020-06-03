@@ -21,13 +21,13 @@ class AboveFoldBack extends Component {
           </Fade>
         </div>
         <div className="graph">
-          <Fade left delay={100}>
+          <Fade left delay={50}>
             <img src={graph2} alt="graph2" className="pic1"/>
           </Fade>
         </div>
 
         <div className="graph">
-          <Fade left delay={200}>
+          <Fade left delay={100}>
             <div className="text">
             Using Skyline Architecture you will be able to
             see alternate dimensions as if peering through
@@ -36,7 +36,7 @@ class AboveFoldBack extends Component {
           </Fade>
         </div>
         <div className="graph">
-          <Fade left delay={300}>
+          <Fade left delay={150}>
             <img src={graph1} alt="graph1" className="pic2"/>
           </Fade>
         </div>
