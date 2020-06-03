@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import classnames from "classnames";
 
+// custom components
 import Navbar from "./Navbar";
 import NavbarItem from "./Navbar/NavbarItem";
 import { Flipper } from "react-flip-toolkit";

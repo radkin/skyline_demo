@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
+
 import './AboveFoldBack.css';
 import graph2 from '../assets/images/graph2.svg';
 import graph1 from '../assets/images/graph1.svg';

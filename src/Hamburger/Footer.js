@@ -35,8 +35,8 @@ function Footer(props) {
 }
 
 Footer.defaultProps = {
-  color: 'black',
-  title: 'hello world!'
+  color: '#de6432',
+  title: 'Skyline labs Inc.'
 }
 
 Footer.propTypes = {

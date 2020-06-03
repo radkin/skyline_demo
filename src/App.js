@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import AnimatedNavbar from "./AnimatedNavbar"
 import styled from "styled-components"
+
+// custom components
+import AnimatedNavbar from "./AnimatedNavbar"
 import AboveFoldBack from './Components/AboveFoldBack';
 
 const AppContainer = styled.div`

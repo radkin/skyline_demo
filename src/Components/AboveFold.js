@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
+
 import './AboveFold.css';
 import building1 from '../assets/images/Building1.svg';
 import building2 from '../assets/images/building2.svg';

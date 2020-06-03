@@ -1,7 +1,7 @@
-// You can live edit this code below the import statements
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
 import rrConfig from 'react-reveal/globals';
+
 import './RevealSkyline.css';
 
 rrConfig({ ssrFadeout: true });
