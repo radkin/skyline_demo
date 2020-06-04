@@ -8,6 +8,7 @@ const NavbarEl = styled.nav`
 const NavbarList = styled.ul`
   display: flex;
   justify-content: center;
+  padding-right: 90px;
   list-style: none;
   margin: 0;
 `
