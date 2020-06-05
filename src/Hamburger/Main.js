@@ -5,6 +5,7 @@ import './Main.css';
 import MenuItem from './MenuItem';
 import Menu from './Menu';
 import MenuButton from './MenuButton';
+import Footer from './Footer';
 
 class Main extends Component {
   constructor(props){
@@ -40,6 +41,15 @@ class Main extends Component {
         },
         logo: {
           margin: '0 auto',
+        },
+        body: {
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          width: '100vw',
+          height: '100vh',
+          filter: this.state.menuOpen ? 'blur(2px)':null,
+          transition: 'filter 0.5s ease',
         },
       }
     const menu = [
@@ -83,6 +93,9 @@ class Main extends Component {
         <Menu open={this.state.menuOpen}>
           {menuItems}
         </Menu>
+        <div style={styles.body}>
+          <Footer name='Menu'/>
+        </div>
       </div>
     )
   }
