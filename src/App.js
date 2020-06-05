@@ -4,6 +4,7 @@ import styled from "styled-components"
 // custom components
 import AnimatedNavbar from "./AnimatedNavbar"
 import AboveFoldBack from './Components/AboveFoldBack';
+import './App.css';
 
 const AppContainer = styled.div`
   background: white;
@@ -30,13 +31,17 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <AppContainer>
-          <AnimatedNavbar duration={this.state.duration} />
-        </AppContainer>
-        <AboveFoldBackground>
-          <AboveFoldBack />
-        </AboveFoldBackground>
+      <div className="container">
+        <div className="item-a">
+          <AppContainer>
+            <AnimatedNavbar duration={this.state.duration} />
+          </AppContainer>
+        </div>
+        <div className="item-b">
+          <AboveFoldBackground>
+            <AboveFoldBack />
+          </AboveFoldBackground>
+        </div>
       </div>
     );
   }
