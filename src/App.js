@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="item-a">
+        <div className="header">
           <AppContainer>
             <AnimatedNavbar duration={this.state.duration} />
           </AppContainer>
