@@ -11,7 +11,6 @@ import InsightDropdown from "./DropdownContents/InsightDropdown";
 import PrecisionDropdown from "./DropdownContents/PrecisionDropdown";
 import RevealSkyline from './Components/RevealSkyline';
 import './AnimatedNavbar.css';
-import AboveFold from './Components/AboveFold';
 import { Main } from './Hamburger';
 
 const navbarConfig = [
@@ -142,7 +141,6 @@ export default class AnimatedNavbar extends Component {
             <Main />
           </div>
         <RevealSkyline />
-        <AboveFold />
         </div>
       </Flipper>
     )

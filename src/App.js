@@ -1,10 +1,15 @@
 import React, { Component } from "react";
 import styled from "styled-components"
+import Fade from 'react-reveal/Fade';
+import rrConfig from 'react-reveal/globals';
 
 // custom components
 import AnimatedNavbar from "./AnimatedNavbar"
-import AboveFoldBack from './Components/AboveFoldBack';
+import AboveFold from './Components/AboveFold';
+// import AboveFoldBack from './Components/AboveFoldBack';
 import './App.css';
+import building1 from './assets/images/Building1.svg';
+import building2 from './assets/images/building2.svg';
 
 const AppContainer = styled.div`
   background: white;
@@ -15,11 +20,6 @@ const AppContainer = styled.div`
   > div:first-of-type {
     flex: 1 0 70vh;
   }`
-
-const AboveFoldBackground = styled.div`
-  background: white;
-  width: 100%;'
-`;
 
 class App extends Component {
 
@@ -37,10 +37,25 @@ class App extends Component {
             <AnimatedNavbar duration={this.state.duration} />
           </AppContainer>
         </div>
-        <div className="item-b">
-          <AboveFoldBackground>
-            <AboveFoldBack />
-          </AboveFoldBackground>
+
+        <div className="picContainerLeft">
+          <Fade left delay={400}>
+            <img src={building2} alt="building2"/>
+          </Fade>
+        </div>
+
+        <div className="main">
+          <AboveFold />
+        </div>
+
+        <div className="picContainerRight">
+          <Fade right delay={200}>
+            <img src={building1} alt="building1"/>
+          </Fade>
+        </div>
+
+        <div className="item-c">
+          footer
         </div>
       </div>
     );
@@ -48,3 +63,14 @@ class App extends Component {
 }
 
 export default App;
+
+/*
+<div className="item-a">
+  <AppContainer>
+    <AnimatedNavbar duration={this.state.duration} />
+  </AppContainer>
+</div>
+<div>
+  <AboveFoldBack />
+</div>
+*/
