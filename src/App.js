@@ -11,6 +11,8 @@ import './App.css';
 import building1 from './assets/images/Building1.svg';
 import building2 from './assets/images/building2.svg';
 
+rrConfig({ ssrFadeout: true });
+
 const AppContainer = styled.div`
   background: white;
   display: flex;
@@ -55,7 +57,6 @@ class App extends Component {
         </div>
 
         <div className="item-c">
-          footer
         </div>
       </div>
     );
@@ -63,14 +64,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*
-<div className="item-a">
-  <AppContainer>
-    <AnimatedNavbar duration={this.state.duration} />
-  </AppContainer>
-</div>
-<div>
-  <AboveFoldBack />
-</div>
-*/
