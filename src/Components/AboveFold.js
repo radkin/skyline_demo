@@ -18,10 +18,10 @@ class AboveFold extends React.Component {
               <h1>Skyline</h1>
               <Fade bottom delay={600}>
                 <div className="pr">
-                  <h2>Scientific Solutions</h2>
+                  <h2>scientific solutions</h2>
                   <Fade bottom delay={850}>
                     <div className="in">
-                      <h2>That stretch your mind</h2>
+                      <h2>to expand your mind</h2>
                     </div>
                   </Fade>
                 </div>

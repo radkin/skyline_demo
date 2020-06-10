@@ -60,7 +60,7 @@ const PrecisionDropdown = () => {
             </div>
             <div>
               <Heading color="blue">Metrics</Heading>
-              <p>time series, linear, millisecond</p>
+              <p>Time Series, Linear, Millisecond</p>
             </div>
           </li>
           <li>
@@ -69,7 +69,7 @@ const PrecisionDropdown = () => {
             </div>
             <div>
               <Heading color="green">Predictive</Heading>
-              <p>Machine Learning algorithm</p>
+              <p>Machine Learning Algorithm</p>
             </div>
           </li>
           <li>
@@ -79,7 +79,7 @@ const PrecisionDropdown = () => {
             <div>
               <Heading color="teal">Cybernetics</Heading>
               <p style={{ marginBottom: 0 }}>
-                Flesh and machine combined perfection
+                Flesh and Machine Combined Perfection
               </p>
             </div>
           </li>
@@ -89,21 +89,22 @@ const PrecisionDropdown = () => {
         <SubPrecisionList>
           <li>
             <Heading noMarginBottom>Amber</Heading>
-            <div>Broad spectrum stasis chambers</div>
+            <div>Broad Spectrum Stasis Chambers</div>
           </li>
           <li>
             <Heading noMarginBottom>Brain</Heading>
-            <div>Neurochemical enhancements</div>
+            <div>Neurochemical Enhancements</div>
           </li>
           <li>
             <Heading noMarginBottom>Shield</Heading>
-            <div>Protect yourself from temporal threats</div>
+            <div>Protect Yourself from Temporal Threats</div>
           </li>
         </SubPrecisionList>
         <WorksWithStripe>
           <Heading noMarginBottom>
-            <a href="https://en.wikipedia.org/wiki/White_Tulip">
-              <Icon />Travel options for time and space
+            {/* eslint-disable-next-line */}
+            <a href="#">
+              <Icon />Travel Options for Time and Space
             </a>
           </Heading>
         </WorksWithStripe>

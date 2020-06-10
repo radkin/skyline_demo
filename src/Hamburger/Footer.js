@@ -36,7 +36,7 @@ function Footer(props) {
 
 Footer.defaultProps = {
   color: '#de6432',
-  title: 'Skyline labs Inc.'
+  title: 'Skyline Labs Inc.'
 }
 
 Footer.propTypes = {

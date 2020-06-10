@@ -59,19 +59,19 @@ class Main extends Component {
       },
       {
         title: 'Our Products',
-        href: 'https://en.wikipedia.org/wiki/Fringe_Product'
+        href: '#'
       },
       {
         title: 'Services',
-        href: 'https://www.oxfordlearnersdictionaries.com/us/definition/american_english/fringe-benefit'
+        href: '#'
       },
       {
         title: 'FAQ',
-        href: 'https://fringe.fandom.com/wiki/FringeWiki'
+        href: '#'
       },
       {
         title: 'Contact Us',
-        href: 'mailto:foo@bar.com'
+        href: 'https://github.com/radkin'
       }
     ];
     const menuItems = menu.map((val,index)=>{
@@ -79,7 +79,7 @@ class Main extends Component {
         <MenuItem
           key={index}
           delay={`${index * 0.1}s`}
-          onClick={()=>{window.open(val.href, "_blank")}}
+          onClick={()=>{window.location.replace(val.href, "#")}}
         >
           {val.title}
         </MenuItem>)

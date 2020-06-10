@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import styled from "styled-components"
 import Fade from 'react-reveal/Fade';
 import rrConfig from 'react-reveal/globals';
 
@@ -13,16 +12,6 @@ import building2 from './assets/images/building2.svg';
 
 rrConfig({ ssrFadeout: true });
 
-const AppContainer = styled.div`
-  background: white;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-
-  > div:first-of-type {
-    flex: 1 0 70vh;
-  }`
-
 class App extends Component {
 
   state = { duration: 300 }
@@ -35,14 +24,12 @@ class App extends Component {
     return (
       <div className="container">
         <div className="header">
-          <AppContainer>
-            <AnimatedNavbar duration={this.state.duration} />
-          </AppContainer>
+          <AnimatedNavbar duration={this.state.duration} />
         </div>
 
         <div className="picContainerLeft">
           <Fade left delay={400}>
-            <img src={building2} alt="building2"/>
+            <img src={building1} alt="building1"/>
           </Fade>
         </div>
 
@@ -52,7 +39,7 @@ class App extends Component {
 
         <div className="picContainerRight">
           <Fade right delay={200}>
-            <img src={building1} alt="building1"/>
+            <img src={building2} alt="building2"/>
           </Fade>
         </div>
 

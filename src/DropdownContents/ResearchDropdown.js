@@ -1,4 +1,5 @@
 import React from "react"
+
 import styled from "styled-components"
 import {
   Heading,
@@ -18,35 +19,31 @@ const ResearchDropdown = () => {
       <DropdownSection data-first-dropdown-section>
         <ul>
           <HeadingLink>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Synaptic_Transfer">
+              href="#">
               <Icon />Synaptic Transfer
             </a>
           </HeadingLink>
           <HeadingLink>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Rapid_skin_growth_toxin">
+              href="#">
               <Icon />Rapid Skin Growth Toxin
             </a>
           </HeadingLink>
           <HeadingLink>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.popularmechanics.com/culture/tv/a5477/4344500/">
+              href="#">
               <Icon />Targeted Genetics
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Alternate_Universe">
-              <Icon />Multidimentional Travel
+              href="#">
+              <Icon />Multidimensional Travel
             </a>
           </HeadingLink>
         </ul>
@@ -58,27 +55,24 @@ const ResearchDropdown = () => {
           </Heading>
           <LinkList marginLeft="25px">
             <li>
+              {/* eslint-disable-next-line */}
               <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://fringe.fandom.com/wiki/The_Zodiac_Paradox">
+                href="#">
                 Zodiac Paradox &rsaquo;
                 </a>
             </li>
             <li>
+              {/* eslint-disable-next-line */}
               <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://en.wikipedia.org/wiki/Transhumanism">
-                Enhance physiology and intellect &rsaquo;
+                href="#">
+                Enhance Physiology and Intellect &rsaquo;
               </a>
             </li>
             <li>
+              {/* eslint-disable-next-line */}
               <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://en.wikipedia.org/wiki/Technological_singularity">
-                Unforeseeable changes to human civilization &rsaquo;</a>
+                href="#">
+                Unforeseeable Changes to Human Civilization &rsaquo;</a>
             </li>
           </LinkList>
         </div>

@@ -1,7 +1,8 @@
 /* GRID */
 .header {
   grid-area: header;
-  justify-self: center;
+  background: white;
+  min-height: 100vh;
 }
 .main {
   grid-area: main;
@@ -22,7 +23,6 @@
   height: 50%;
   justify-self: end;
 }
-
 .container {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
