@@ -11,7 +11,6 @@ import InsightDropdown from "./DropdownContents/InsightDropdown";
 import PrecisionDropdown from "./DropdownContents/PrecisionDropdown";
 import RevealSkyline from './Components/RevealSkyline';
 import './AnimatedNavbar.css';
-import AboveFold from './Components/AboveFold';
 import { Main } from './Hamburger';
 
 const navbarConfig = [
@@ -116,33 +115,39 @@ export default class AnimatedNavbar extends Component {
       >
         <div id="behind">
           <div id="front">
-            <Navbar onMouseLeave={this.onMouseLeave}>
-              {navbarConfig.map((n, index) => {
-                return (
-                  <NavbarItem
-                    key={n.title}
-                    title={n.title}
-                    index={index}
-                    onMouseEnter={this.onMouseEnter}
-                  >
-                    {currentIndex === index && (
-                      <DropdownContainer
-                        direction={direction}
-                        animatingOut={this.state.animatingOut}
-                        duration={duration}
-                      >
-                        <CurrentDropdown />
-                        {PrevDropdown && <PrevDropdown />}
-                      </DropdownContainer>
-                    )}
-                  </NavbarItem>
-                )
-              })}
-            </Navbar>
-            <Main />
+
+            <div className="drops">
+              <Navbar onMouseLeave={this.onMouseLeave}>
+                {navbarConfig.map((n, index) => {
+                  return (
+                    <NavbarItem
+                      key={n.title}
+                      title={n.title}
+                      index={index}
+                      onMouseEnter={this.onMouseEnter}
+                    >
+                      {currentIndex === index && (
+                        <DropdownContainer
+                          direction={direction}
+                          animatingOut={this.state.animatingOut}
+                          duration={duration}
+                        >
+                          <CurrentDropdown />
+                          {PrevDropdown && <PrevDropdown />}
+                        </DropdownContainer>
+                      )}
+                    </NavbarItem>
+                  )
+                })}
+              </Navbar>
+            </div>
+
+            <div>
+              <Main />
+            </div>
+
           </div>
         <RevealSkyline />
-        <AboveFold />
         </div>
       </Flipper>
     )

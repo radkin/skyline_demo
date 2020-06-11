@@ -25,33 +25,30 @@ const InsightDropdown = () => {
       <DropdownSection data-first-dropdown-section>
         <div>
           <Heading>Documentation</Heading>
-          <p>Custom predictive algorithms</p>
+          <p>Custom Predictive Algorithms</p>
           <Flex>
             <div>
               <h4>Get Started</h4>
               <LinkList>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.ratingraph.com/tv-shows/fringe-ratings-30746/">
+                    href="#">
                     Statistics
                   </a>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://24.media.tumblr.com/aad7b9a2eb41722ace3065ec77a94706/tumblr_mk1dejHWVB1rzirmio1_500.jpg">
+                    href="#">
                     Machine Learning
                   </a>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.imdb.com/title/tt1537548/">
-                    Cranial nerve augmentation
+                    href="#">
+                    Cranial Nerve Augmentation
                     </a>
                 </li>
               </LinkList>
@@ -60,27 +57,24 @@ const InsightDropdown = () => {
               <h4>Popular Imrovements</h4>
               <LinkList>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://fringe.fandom.com/wiki/Cortexiphan">
+                    href="#">
                     Cortex Nerve Density
                   </a>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://ih1.redbubble.net/image.13349442.1611/fc,550x550,navy.jpg">
-                    Cortexifan treatment
+                    href="#">
+                    Cortexifan Treatment
                     </a>
                 </li>
                 <li>
+                  {/* eslint-disable-next-line */}
                   <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://en.wikipedia.org/wiki/Brave_New_World_(Fringe)">
-                    Cellular regeneration
+                    href="#">
+                    Cellular Regeneration
                   </a>
                 </li>
               </LinkList>
@@ -91,26 +85,23 @@ const InsightDropdown = () => {
       <DropdownSection>
         <ul>
           <HeadingLink>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Neogenesis">
+              href="#">
               <Icon />NeoGenesis
             </a>
           </HeadingLink>
           <HeadingLink>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Teleportation_device">
+              href="#">
               <Icon />Teleportation
             </a>
           </HeadingLink>
           <HeadingLink noMarginBottom>
+            {/* eslint-disable-next-line */}
             <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://fringe.fandom.com/wiki/Harvard_Laboratory">
+              href="#">
               <Icon />New Research
             </a>
           </HeadingLink>

@@ -1,23 +1,7 @@
-.picContainerLeft {
-  width: 25%;
-  float:left;
-  width: 15%;
-  height: 15%;
-  padding-top: 170px;
-}
-
-.picContainerRight {
-  width: 25%;
-  float: right;
-  padding-right: 200px;
-  width: 26%;
-  height: 26%;
-  padding-top: 130px;
-}
-
 .sky {
   display: inline-block;
   font-size: 30px;
+  text-align: center;
 }
 
 .pr {
@@ -31,6 +15,5 @@
 }
 
 .foldParent {
-  text-align: center;
   padding-top: 40px;
 }

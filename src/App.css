@@ -1,0 +1,35 @@
+/* GRID */
+.header {
+  grid-area: header;
+  background: white;
+  min-height: 100vh;
+}
+.main {
+  grid-area: main;
+  text-align: center;
+}
+.item-c {
+  grid-area: footer;
+}
+.picContainerLeft {
+  grid-area: sideleft;
+  width: 50%;
+  height: 50%;
+  justify-self: start;
+}
+.picContainerRight {
+  grid-area: sideright;
+  width: 50%;
+  height: 50%;
+  justify-self: end;
+}
+.container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  justify-content: center;
+  grid-template-areas:
+    "header header header"
+    "sideleft main sideright"
+    "footer footer footer";
+}

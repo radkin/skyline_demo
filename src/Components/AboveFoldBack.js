@@ -11,7 +11,7 @@ rrConfig({ ssrFadeout: true });
 class AboveFoldBack extends Component {
   render() {
     return(
-      <div className="skyRow">
+      <div>
 
         <div className="graph">
           <Fade left>
