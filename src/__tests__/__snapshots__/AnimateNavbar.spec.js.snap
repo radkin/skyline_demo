@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AnimatedNavbar snapshot renders 1`] = `
+<div
+  className="navbar"
+>
+  <div
+    id="behind"
+  >
+    <div
+      id="front"
+    >
+      <div
+        className="drops"
+      >
+        <nav
+          className="sc-AxjAm bYBZYp"
+          onMouseLeave={[Function]}
+        >
+          <ul
+            className="sc-AxirZ eSoeZG"
+          >
+            <li
+              className="sc-AxhCb jZxptO"
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+            >
+              <button
+                className="sc-AxiKw kVECOj"
+              >
+                Precision
+              </button>
+              <div
+                className="sc-AxhUy gCjlZO"
+              />
+            </li>
+            <li
+              className="sc-AxhCb jZxptO"
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+            >
+              <button
+                className="sc-AxiKw kVECOj"
+              >
+                Insight
+              </button>
+              <div
+                className="sc-AxhUy gCjlZO"
+              />
+            </li>
+            <li
+              className="sc-AxhCb jZxptO"
+              onFocus={[Function]}
+              onMouseEnter={[Function]}
+            >
+              <button
+                className="sc-AxiKw kVECOj"
+              >
+                Research
+              </button>
+              <div
+                className="sc-AxhUy gCjlZO"
+              />
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <div>
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "background": "white",
+                "color": "black",
+                "display": "flex",
+                "fontFamily": "Lobster",
+                "left": 0,
+                "opacity": 0.9,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+                "zIndex": "99",
+              }
+            }
+          >
+            <div
+              onClick={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "cursor": "pointer",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "height": "32px",
+                  "justifyContent": "center",
+                  "padding": "4px",
+                  "width": "32px",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "background": "black",
+                    "height": "2px",
+                    "marginBottom": "5px",
+                    "transform": "none",
+                    "transformOrigin": "top left",
+                    "transition": "all 0.2s ease",
+                    "width": "20px",
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "background": "black",
+                    "height": "2px",
+                    "opacity": 1,
+                    "transform": "none",
+                    "transition": "all 0.2s ease",
+                    "width": "20px",
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "background": "black",
+                    "height": "2px",
+                    "marginTop": "5px",
+                    "transform": "none",
+                    "transformOrigin": "top left",
+                    "transition": "all 0.2s ease",
+                    "width": "20px",
+                  }
+                }
+              />
+            </div>
+          </div>
+          <div
+            style={
+              Object {
+                "background": "#845286",
+                "color": "#fafafa",
+                "display": "flex",
+                "flexDirection": "column",
+                "height": 0,
+                "left": 0,
+                "opacity": 0.95,
+                "position": "absolute",
+                "top": 0,
+                "transition": "height 0.3s ease",
+                "width": "100vw",
+                "zIndex": 2,
+              }
+            }
+          />
+          <div
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "filter": null,
+                "flexDirection": "column",
+                "height": "100vh",
+                "transition": "filter 0.5s ease",
+                "width": "100vw",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "alignItems": "center",
+                  "bottom": 0,
+                  "color": "#de6432",
+                  "display": "flex",
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                  "marginTop": "1rem",
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                style={
+                  Object {
+                    "background": "#de6432",
+                    "height": "1px",
+                    "width": "90%",
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "padding": "1.5rem",
+                  }
+                }
+              >
+                Skyline Labs Inc.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="skyBack"
+    >
+      <img
+        alt="city skyline"
+        className="react-reveal photo"
+        src="header.jpg"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

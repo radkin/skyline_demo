@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarItem snapshot renders 1`] = `
+<li
+  className="sc-AxirZ gpWHsK"
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+>
+  <button
+    className="sc-AxjAm giZCrM"
+  />
+  <div
+    className="sc-AxiKw hSUkaf"
+  />
+</li>
+`;

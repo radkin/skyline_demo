@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuButton snapshot renders 1`] = `
+<div
+  onClick={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "cursor": "pointer",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "32px",
+      "justifyContent": "center",
+      "padding": "4px",
+      "width": "32px",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "black",
+        "height": "2px",
+        "marginBottom": "5px",
+        "transform": "none",
+        "transformOrigin": "top left",
+        "transition": "all 0.2s ease",
+        "width": "20px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "background": "black",
+        "height": "2px",
+        "opacity": 1,
+        "transform": "none",
+        "transition": "all 0.2s ease",
+        "width": "20px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "background": "black",
+        "height": "2px",
+        "marginTop": "5px",
+        "transform": "none",
+        "transformOrigin": "top left",
+        "transition": "all 0.2s ease",
+        "width": "20px",
+      }
+    }
+  />
+</div>
+`;
