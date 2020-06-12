@@ -26,8 +26,7 @@ export default class AnimatedNavbar extends Component {
     this.state = {
       prevScrollpos: window.pageYOffset,
       visible: true,
-      activeIndices: [],
-      scrollPosition: 0
+      activeIndices: []
     };
   }
 
