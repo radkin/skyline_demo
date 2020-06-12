@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResearchDropdown snapshot renders 1`] = `
+<div
+  className="sc-AxgMl exIaJC"
+>
+  <div
+    className="sc-AxhUy jUcgjo"
+    data-first-dropdown-section={true}
+  >
+    <ul>
+      <li
+        className="sc-AxirZ dlCcpm"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          Synaptic Transfer
+        </a>
+      </li>
+      <li
+        className="sc-AxirZ dlCcpm"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          Rapid Skin Growth Toxin
+        </a>
+      </li>
+      <li
+        className="sc-AxirZ dlCcpm"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          Targeted Genetics
+        </a>
+      </li>
+      <li
+        className="sc-AxirZ kBSoHp"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          Multidimensional Travel
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="sc-AxhUy jUcgjo"
+  >
+    <div>
+      <h3
+        className="sc-AxjAm ftcold"
+      >
+        <div
+          className="sc-AxhCb hPcABc"
+        />
+        Interactive
+      </h3>
+      <ul
+        className="sc-AxiKw jIOAGB"
+      >
+        <li>
+          <a
+            href="#"
+          >
+            Zodiac Paradox ›
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Enhance Physiology and Intellect ›
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+          >
+            Unforeseeable Changes to Human Civilization ›
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
