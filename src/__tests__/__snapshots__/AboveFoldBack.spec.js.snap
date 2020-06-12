@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboveFoldBack snapshot renders 1`] = `
+<div>
+  <div
+    className="graph"
+  >
+    <div
+      className="react-reveal text"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    >
+      Predict cellular growth and chart nerve regeneration with incredible precision.
+    </div>
+  </div>
+  <div
+    className="graph"
+  >
+    <img
+      alt="graph2"
+      className="react-reveal pic1"
+      src="graph2.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+  <div
+    className="graph"
+  >
+    <div
+      className="react-reveal text"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    >
+      Using Skyline Architecture you will be able to see alternate dimensions as if peering through a mirror.
+    </div>
+  </div>
+  <div
+    className="graph"
+  >
+    <img
+      alt="graph1"
+      className="react-reveal pic2"
+      src="graph1.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+</div>
+`;

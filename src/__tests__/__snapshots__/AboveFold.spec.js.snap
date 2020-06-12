@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboveFold snapshot renders 1`] = `
+<div
+  className="foldParent"
+>
+  <div>
+    <div
+      className="react-reveal sky"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    >
+      <h1>
+        Skyline
+      </h1>
+      <div
+        className="react-reveal pr"
+        style={
+          Object {
+            "opacity": undefined,
+          }
+        }
+      >
+        <h2>
+          scientific solutions
+        </h2>
+        <div
+          className="react-reveal in"
+          style={
+            Object {
+              "opacity": undefined,
+            }
+          }
+        >
+          <h2>
+            to expand your mind
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

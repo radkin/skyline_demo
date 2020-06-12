@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuItem snapshot renders 1`] = `
+<div
+  style={
+    Object {
+      "animation": "1s appear forwards",
+      "animationDelay": undefined,
+      "opacity": 0,
+    }
+  }
+>
+  <div
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    style={
+      Object {
+        "animation": "0.5s slideIn forwards",
+        "animationDelay": undefined,
+        "color": "#fafafa",
+        "cursor": "pointer",
+        "fontFamily": "'Open Sans', sans-serif",
+        "fontSize": "1.2rem",
+        "margin": "0 5%",
+        "padding": "1rem 0",
+        "transition": "color 0.2s ease-in-out",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "animation": "0.5s shrink forwards",
+        "animationDelay": undefined,
+        "background": "gray",
+        "height": "1px",
+        "margin": "0 auto",
+        "width": "90%",
+      }
+    }
+  />
+</div>
+`;

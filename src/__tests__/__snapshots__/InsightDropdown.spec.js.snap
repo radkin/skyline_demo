@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InsightDropdown snapshot renders 1`] = `
+<div
+  className="sc-AxgMl bVVCIf"
+>
+  <div
+    className="sc-AxhUy jUcgjo"
+    data-first-dropdown-section={true}
+  >
+    <div>
+      <h3
+        className="sc-AxjAm ftcold"
+      >
+        Documentation
+      </h3>
+      <p>
+        Custom Predictive Algorithms
+      </p>
+      <div
+        className="sc-AxheI iQpwjd"
+      >
+        <div>
+          <h4>
+            Get Started
+          </h4>
+          <ul
+            className="sc-AxiKw dpUUZO"
+          >
+            <li>
+              <a
+                href="#"
+              >
+                Statistics
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Machine Learning
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Cranial Nerve Augmentation
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>
+            Popular Imrovements
+          </h4>
+          <ul
+            className="sc-AxiKw dpUUZO"
+          >
+            <li>
+              <a
+                href="#"
+              >
+                Cortex Nerve Density
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Cortexifan Treatment
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+              >
+                Cellular Regeneration
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-AxhUy jUcgjo"
+  >
+    <ul>
+      <li
+        className="sc-AxirZ dlCcpm"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          NeoGenesis
+        </a>
+      </li>
+      <li
+        className="sc-AxirZ dlCcpm"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          Teleportation
+        </a>
+      </li>
+      <li
+        className="sc-AxirZ kBSoHp"
+      >
+        <a
+          href="#"
+        >
+          <div
+            className="sc-AxhCb hPcABc"
+          />
+          New Research
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;

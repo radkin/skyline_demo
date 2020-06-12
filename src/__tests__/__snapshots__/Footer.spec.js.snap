@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer snapshot renders 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "bottom": 0,
+      "color": "#de6432",
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "marginTop": "1rem",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "background": "#de6432",
+        "height": "1px",
+        "width": "90%",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "padding": "1.5rem",
+      }
+    }
+  >
+    Skyline Labs Inc.
+  </div>
+</div>
+`;
