@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RevealSkyline snapshot renders 1`] = `
+<div
+  className="skyBack"
+>
+  <img
+    alt="city skyline"
+    className="react-reveal photo"
+    src="header.jpg"
+    style={
+      Object {
+        "opacity": undefined,
+      }
+    }
+  />
+</div>
+`;

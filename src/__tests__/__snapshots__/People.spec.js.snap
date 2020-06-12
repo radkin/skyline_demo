@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People snapshot renders 1`] = `
+<div
+  className="people"
+>
+  <div
+    className="person"
+  >
+    <img
+      alt="woman1"
+      className="react-reveal pic1"
+      src="woman1.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+  <div
+    className="person"
+  >
+    <img
+      alt="man1"
+      className="react-reveal pic1"
+      src="man1.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+  <div
+    className="person"
+  >
+    <img
+      alt="woman2"
+      className="react-reveal pic1"
+      src="woman2.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+  <div
+    className="person"
+  >
+    <img
+      alt="man2"
+      className="react-reveal pic1"
+      src="man2.svg"
+      style={
+        Object {
+          "opacity": undefined,
+        }
+      }
+    />
+  </div>
+</div>
+`;
