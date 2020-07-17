@@ -13,13 +13,8 @@ ReactJS portfolio experimentation in custom nav components and animation.
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 nvm install v10.16.3
 ```
-**Step 2** - install git
 
-* Ubuntu - `sudo apt-get install github`
-* MacOS - `brew install git`
-* RedHat/CentOS - `yum install git`
-
-**Step 3** - install npms
+**Step 2** - install npms
 
 `npm install`
 
