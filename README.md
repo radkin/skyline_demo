@@ -24,11 +24,4 @@ npm run dev
 ### Running in production
 npm run start
 
-### Final Notes
-This app is an experiment. What happens what you take new tech like
-react-reveal, old tech like CSS/flex and put it all together with
-styled-components?
-
-How close can it be to modern web sites?
-
 radkin@github
