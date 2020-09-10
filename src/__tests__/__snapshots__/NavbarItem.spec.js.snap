@@ -2,15 +2,15 @@
 
 exports[`NavbarItem snapshot renders 1`] = `
 <li
-  className="sc-AxirZ gpWHsK"
+  className="sc-gtssRu lgvXzJ"
   onFocus={[Function]}
   onMouseEnter={[Function]}
 >
   <button
-    className="sc-AxjAm giZCrM"
+    className="sc-bdnylx NuivZ"
   />
   <div
-    className="sc-AxiKw hSUkaf"
+    className="sc-dlnjPT fCPBPs"
   />
 </li>
 `;

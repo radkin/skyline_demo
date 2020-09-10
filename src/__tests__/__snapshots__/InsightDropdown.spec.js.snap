@@ -2,15 +2,15 @@
 
 exports[`InsightDropdown snapshot renders 1`] = `
 <div
-  className="sc-AxgMl bVVCIf"
+  className="sc-jSFkmK gCofnJ"
 >
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
     data-first-dropdown-section={true}
   >
     <div>
       <h3
-        className="sc-AxjAm ftcold"
+        className="sc-bdnylx ittFdg"
       >
         Documentation
       </h3>
@@ -18,14 +18,14 @@ exports[`InsightDropdown snapshot renders 1`] = `
         Custom Predictive Algorithms
       </p>
       <div
-        className="sc-AxheI iQpwjd"
+        className="sc-gKAblj cDMZli"
       >
         <div>
           <h4>
             Get Started
           </h4>
           <ul
-            className="sc-AxiKw dpUUZO"
+            className="sc-dlnjPT jLMKOx"
           >
             <li>
               <a
@@ -55,7 +55,7 @@ exports[`InsightDropdown snapshot renders 1`] = `
             Popular Imrovements
           </h4>
           <ul
-            className="sc-AxiKw dpUUZO"
+            className="sc-dlnjPT jLMKOx"
           >
             <li>
               <a
@@ -84,41 +84,41 @@ exports[`InsightDropdown snapshot renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
   >
     <ul>
       <li
-        className="sc-AxirZ dlCcpm"
+        className="sc-gtssRu iRMejV"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           NeoGenesis
         </a>
       </li>
       <li
-        className="sc-AxirZ dlCcpm"
+        className="sc-gtssRu iRMejV"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Teleportation
         </a>
       </li>
       <li
-        className="sc-AxirZ kBSoHp"
+        className="sc-gtssRu fFlTca"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           New Research
         </a>
