@@ -2,57 +2,57 @@
 
 exports[`ResearchDropdown snapshot renders 1`] = `
 <div
-  className="sc-AxgMl exIaJC"
+  className="sc-jSFkmK hxMrJw"
 >
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
     data-first-dropdown-section={true}
   >
     <ul>
       <li
-        className="sc-AxirZ dlCcpm"
+        className="sc-gtssRu iRMejV"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Synaptic Transfer
         </a>
       </li>
       <li
-        className="sc-AxirZ dlCcpm"
+        className="sc-gtssRu iRMejV"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Rapid Skin Growth Toxin
         </a>
       </li>
       <li
-        className="sc-AxirZ dlCcpm"
+        className="sc-gtssRu iRMejV"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Targeted Genetics
         </a>
       </li>
       <li
-        className="sc-AxirZ kBSoHp"
+        className="sc-gtssRu fFlTca"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Multidimensional Travel
         </a>
@@ -60,19 +60,19 @@ exports[`ResearchDropdown snapshot renders 1`] = `
     </ul>
   </div>
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
   >
     <div>
       <h3
-        className="sc-AxjAm ftcold"
+        className="sc-bdnylx ittFdg"
       >
         <div
-          className="sc-AxhCb hPcABc"
+          className="sc-hKFyIo jHqPGt"
         />
         Interactive
       </h3>
       <ul
-        className="sc-AxiKw jIOAGB"
+        className="sc-dlnjPT fDkgFC"
       >
         <li>
           <a

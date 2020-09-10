@@ -10,6 +10,10 @@
   "ecmaFeatures": {
       "jsx": true
   },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:react/recommended"
+  ]
   "plugins": [
       "react"
   ]

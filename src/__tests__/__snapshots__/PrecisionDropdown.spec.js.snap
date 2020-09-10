@@ -2,25 +2,25 @@
 
 exports[`PrecisionDropdown snapshot renders 1`] = `
 <div
-  className="sc-AxgMl qlIKz"
+  className="sc-jSFkmK eRhXfF"
 >
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
     data-first-dropdown-section={true}
   >
     <ul
-      className="sc-AxmLO dWIgqW"
+      className="sc-fujyUd drJnhL"
     >
       <li>
         <div>
           <div
-            className="sc-AxheI hhLxSH"
+            className="sc-gKAblj gdooSY"
             color="blue"
           />
         </div>
         <div>
           <h3
-            className="sc-AxjAm ftcold"
+            className="sc-bdnylx ittFdg"
             color="blue"
           >
             Metrics
@@ -33,13 +33,13 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
       <li>
         <div>
           <div
-            className="sc-AxheI jTwUoS"
+            className="sc-gKAblj jjmuxB"
             color="green"
           />
         </div>
         <div>
           <h3
-            className="sc-AxjAm cZsjBU"
+            className="sc-bdnylx kyEuFl"
             color="green"
           >
             Predictive
@@ -52,13 +52,13 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
       <li>
         <div>
           <div
-            className="sc-AxheI fgSBud"
+            className="sc-gKAblj gWGJRu"
             color="teal"
           />
         </div>
         <div>
           <h3
-            className="sc-AxjAm ebxatb"
+            className="sc-bdnylx cUjIoy"
             color="teal"
           >
             Cybernetics
@@ -77,14 +77,14 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
     </ul>
   </div>
   <div
-    className="sc-AxhUy jUcgjo"
+    className="sc-eCApGN bHCcHc"
   >
     <ul
-      className="sc-Axmtr bqEewY"
+      className="sc-iCoHVE iFCOJv"
     >
       <li>
         <h3
-          className="sc-AxjAm jZVTIS"
+          className="sc-bdnylx dsLUOj"
         >
           Amber
         </h3>
@@ -94,7 +94,7 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
       </li>
       <li>
         <h3
-          className="sc-AxjAm jZVTIS"
+          className="sc-bdnylx dsLUOj"
         >
           Brain
         </h3>
@@ -104,7 +104,7 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
       </li>
       <li>
         <h3
-          className="sc-AxjAm jZVTIS"
+          className="sc-bdnylx dsLUOj"
         >
           Shield
         </h3>
@@ -114,16 +114,16 @@ exports[`PrecisionDropdown snapshot renders 1`] = `
       </li>
     </ul>
     <div
-      className="sc-fzozJi ijsvyt"
+      className="sc-pNWxx jSIpzZ"
     >
       <h3
-        className="sc-AxjAm jZVTIS"
+        className="sc-bdnylx dsLUOj"
       >
         <a
           href="#"
         >
           <div
-            className="sc-AxhCb hPcABc"
+            className="sc-hKFyIo jHqPGt"
           />
           Travel Options for Time and Space
         </a>

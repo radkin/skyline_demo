@@ -20,52 +20,52 @@ exports[`App snapshot renders 1`] = `
             className="drops"
           >
             <nav
-              className="sc-AxjAm bYBZYp"
+              className="sc-bdnylx gyhvdE"
               onMouseLeave={[Function]}
             >
               <ul
-                className="sc-AxirZ eSoeZG"
+                className="sc-gtssRu jaFXwF"
               >
                 <li
-                  className="sc-AxhCb jZxptO"
+                  className="sc-hKFyIo krhchD"
                   onFocus={[Function]}
                   onMouseEnter={[Function]}
                 >
                   <button
-                    className="sc-AxiKw kVECOj"
+                    className="sc-dlnjPT fLOmYs"
                   >
                     Precision
                   </button>
                   <div
-                    className="sc-AxhUy gCjlZO"
+                    className="sc-eCApGN flALIO"
                   />
                 </li>
                 <li
-                  className="sc-AxhCb jZxptO"
+                  className="sc-hKFyIo krhchD"
                   onFocus={[Function]}
                   onMouseEnter={[Function]}
                 >
                   <button
-                    className="sc-AxiKw kVECOj"
+                    className="sc-dlnjPT fLOmYs"
                   >
                     Insight
                   </button>
                   <div
-                    className="sc-AxhUy gCjlZO"
+                    className="sc-eCApGN flALIO"
                   />
                 </li>
                 <li
-                  className="sc-AxhCb jZxptO"
+                  className="sc-hKFyIo krhchD"
                   onFocus={[Function]}
                   onMouseEnter={[Function]}
                 >
                   <button
-                    className="sc-AxiKw kVECOj"
+                    className="sc-dlnjPT fLOmYs"
                   >
                     Research
                   </button>
                   <div
-                    className="sc-AxhUy gCjlZO"
+                    className="sc-eCApGN flALIO"
                   />
                 </li>
               </ul>
