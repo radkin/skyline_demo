@@ -1,8 +1,8 @@
 # skyline_demo
-ReactJS portfolio experimentation in custom nav components and animation.
+ReactJS portfolio corp website with custom components and animation.
 
 ### Certified for use with
-* Node 10.16.3
+* Node 12.18.2
 * React 16.13.0
 * Webpack 4.41.5
 
